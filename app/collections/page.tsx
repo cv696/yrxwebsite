@@ -1,15 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, Suspense } from "react"; // 导入 Suspense
 import { useSearchParams, useRouter } from "next/navigation";
 import { productCategories, products } from "../../data/products";
 
-export default function CollectionsPage() {
+// 1. 创建一个子组件来处理所有包含 searchParams 的逻辑
+function CollectionsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   
-  // 从URL参数中读取当前分类，如果没有则使用默认值
   const [activeCategory, setActiveCategory] = useState<string>(
     (searchParams.get('category') || productCategories[0]?.id) ?? "medicine-incense-beads",
   );
@@ -17,7 +17,6 @@ export default function CollectionsPage() {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [isSearching, setIsSearching] = useState<boolean>(false);
   
-  // 当activeCategory变化时，更新URL参数
   useEffect(() => {
     const params = new URLSearchParams(searchParams);
     params.set('category', activeCategory);
@@ -27,12 +26,10 @@ export default function CollectionsPage() {
   const filteredProducts = useMemo(
     () => {
       if (isSearching && searchTerm.trim()) {
-        // 搜索模式：根据产品名称过滤
         return products.filter((p) =>
           p.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
       } else {
-        // 分类模式：根据分类过滤
         return products.filter((p) =>
           activeCategory === "all" ? true : p.category === activeCategory,
         );
@@ -40,11 +37,13 @@ export default function CollectionsPage() {
     },
     [activeCategory, isSearching, searchTerm],
   );
+
   const productsToShow = useMemo(
     () => filteredProducts.slice(0, visibleCount),
     [filteredProducts, visibleCount],
   );
 
+  // 这里放你原本 return 里的所有 HTML 内容
   return (
     <div className="space-y-16 pb-20">
       {/* Heading */}
@@ -65,7 +64,6 @@ export default function CollectionsPage() {
       {/* Category Tabs with Search */}
       <section className="space-y-6">
         <div className="space-y-4">
-          {/* Search Box */}
           <div className="relative">
             <input
               type="text"
@@ -80,6 +78,7 @@ export default function CollectionsPage() {
               }}
               className="w-full rounded-full border border-accent/20 bg-primary/90 px-4 py-2 pl-10 text-xs font-body tracking-[0.1em] text-foreground/80 focus:outline-none focus:ring-2 focus:ring-accent/50"
             />
+            {/* ... 这里省略部分重复的 SVG 图标代码，保持跟你原版一致 ... */}
             <svg xmlns="http://www.w3.org/2000/svg" className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-foreground/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -99,7 +98,6 @@ export default function CollectionsPage() {
             )}
           </div>
           
-          {/* Category Tabs */}
           <div className="flex flex-wrap items-center gap-2 rounded-full border border-accent/20 bg-primary/80 p-1.5">
             {productCategories.map((cat) => {
               const isActive = cat.id === activeCategory;
@@ -135,7 +133,6 @@ export default function CollectionsPage() {
               key={product.id}
               className="group flex flex-col items-center gap-8 md:flex-row md:even:flex-row-reverse md:gap-16"
             >
-              {/* Image Side */}
               <div className="relative w-full overflow-hidden rounded-3xl bg-primary/30 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] md:w-1/2">
                 <div className="relative aspect-[4/3] w-full">
                   <Image
@@ -146,12 +143,10 @@ export default function CollectionsPage() {
                     sizes="(max-width: 480px) 100vw, (max-width: 768px) 92vw, (max-width: 1024px) 80vw, (max-width: 1280px) 60vw, 45vw"
                     quality={65}
                     priority={index === 0}
-                    loading={index === 0 ? "eager" : "lazy"}
                   />
                 </div>
               </div>
 
-              {/* Text Side */}
               <div className="flex w-full flex-col gap-4 md:w-1/2 md:py-8">
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
@@ -176,7 +171,6 @@ export default function CollectionsPage() {
                   <span>{product.ingredients}</span>
                 </div>
 
-                {/* Price and Collector */}
                 <div className="mt-4 flex flex-wrap gap-4 text-xs pl-4.5">
                   {product.price && (
                     <div className="flex items-center gap-1.5">
@@ -201,12 +195,12 @@ export default function CollectionsPage() {
         </div>
 
         {filteredProducts.length > 6 && (
-          <div className="mt-2 flex justify-center">
+          <div className="mt-12 flex justify-center">
             {visibleCount < filteredProducts.length ? (
               <button
                 type="button"
                 onClick={() => setVisibleCount((v) => v + 6)}
-                className="rounded-full border border-accent/30 bg-primary/90 px-4 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
+                className="rounded-full border border-accent/30 bg-primary/90 px-6 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
               >
                 展开更多
               </button>
@@ -214,32 +208,23 @@ export default function CollectionsPage() {
               <button
                 type="button"
                 onClick={() => setVisibleCount(6)}
-                className="rounded-full border border-accent/30 bg-primary/90 px-4 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
+                className="rounded-full border border-accent/30 bg-primary/90 px-6 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
               >
                 收起
               </button>
             )}
           </div>
         )}
-        
-        {/* 回到首页按钮 - 只在搜索模式下显示 */}
-        {isSearching && (
-          <div className="mt-8 flex justify-center">
-            <button
-              type="button"
-              onClick={() => {
-                setIsSearching(false);
-                setSearchTerm('');
-                setActiveCategory(productCategories[0]?.id || "medicine-incense-beads");
-                setVisibleCount(6);
-              }}
-              className="rounded-full border border-accent/30 bg-primary/90 px-6 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
-            >
-              回到首页
-            </button>
-          </div>
-        )}
       </section>
     </div>
+  );
+}
+
+// 2. 导出的主页面组件：只负责用 Suspense 包裹子组件
+export default function CollectionsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen p-20 text-center font-body tracking-widest">正在加载臻品系列...</div>}>
+      <CollectionsContent />
+    </Suspense>
   );
 }
