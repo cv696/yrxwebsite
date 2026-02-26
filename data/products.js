@@ -8,7 +8,7 @@ export const products = [
       "莲花生大士，藏传佛教的奠基者，被视为观世音菩萨、文殊菩萨和金刚手菩萨的化身，尊称为'第二佛'。核心象征与意义：智慧与慈悲的完美结合，能消除修行障碍，带来吉祥与护持，是藏传佛教中最受尊崇的祖师之一。",
     price: "￥9800",
     collector: "",
-    imageUrl: "/products/莲花生大士.jpg",
+    imageUrl: "/products/guru-rinpoche.jpg",
   },
   {
     id: "medicine-tsa-tsa-02",
@@ -19,7 +19,7 @@ export const products = [
       "黄财神，藏传佛教中的财神护法，被视为毗卢遮那佛的化身。核心象征与意义：财富与福报的赐予者，能消除贫困与匮乏，护持众生的物质需求，同时也是修行路上的护法，象征着精神与物质的平衡。",
     price: "￥15100",
     collector: "",
-    imageUrl: "/products/黄财神.jpg",
+    imageUrl: "/products/yellow-tara.jpg",
   },
   {
     id: "medicine-tsa-tsa-03",
@@ -30,7 +30,7 @@ export const products = [
       "千手观音，观世音菩萨的化身之一，以千手千眼广济众生。核心象征与意义：无边无际的慈悲与救护，千手表示遍护众生，千眼表示遍观世间，能满足众生的各种需求，消除一切苦难，是慈悲与力量的完美体现。",
     price: "￥9500",
     collector: "",
-    imageUrl: "/products/千手观音.jpg",
+    imageUrl: "/products/thousand-hand-goddess-of-mercy.jpg",
   },
   {
     id: "medicine-tsa-tsa-04",
@@ -41,7 +41,7 @@ export const products = [
       "阿弥陀佛，西方极乐世界的教主，被视为无量光佛、无量寿佛。核心象征与意义：无量的光明与寿命，能接引众生往生西方极乐世界，远离轮回之苦。他的慈悲愿力无边，象征着对众生的无尽关怀与救度，是净土宗信仰的核心本尊。",
     price: "￥4800",
     collector: "",
-    imageUrl: "/products/阿弥陀佛像.jpg",
+    imageUrl: "/products/amitabha-buddha.jpg",
   },
   {
     id: "medicine-tsa-tsa-05",
@@ -52,7 +52,7 @@ export const products = [
       "绿度母，全称为 '圣救度佛母'，是藏传佛教中极具影响力的女性本尊，被视为观世音菩萨的化身之一。核心象征与意义：慈悲救度：她象征着无条件的慈悲与救度，能消除众生的恐惧、灾难与痛苦，尤其护佑女性，被尊为 '救度母'。",
     price: "￥12000",
     collector: "",
-    imageUrl: "/products/绿度母.jpg",
+    imageUrl: "/products/green-tara.jpg",
   },
   {
     id: "medicine-tsa-tsa-06",
@@ -63,7 +63,7 @@ export const products = [
       "阿閦佛（不动佛）是藏传佛教中极具加持力的随身圣物。阿閦佛意为 '不动'，代表菩提心坚固不退，能对治嗔恨、愤怒等烦恼，转化为清净的大圆镜智，护持内心安定。兼具佛法加持与药香疗愈的双重力量，可随身佩戴或供奉，助你在日常中保持平和心境。",
     price: "￥4600",
     collector: "",
-    imageUrl: "/products/不动佛.jpg",
+    imageUrl: "/products/buddha-of-immovable.jpg",
   },
   {
     id: "medicine-tsa-tsa-07",
@@ -74,7 +74,7 @@ export const products = [
       "文殊菩萨，梵名文殊师利，意为 '妙吉祥'，是佛教公认的 '大智' 化身，乃诸佛之师、菩萨之母。其造像右手持智慧利剑，象征以般若慧力斩断无明烦恼与一切邪见；左手托举般若经箧，代表圆满的佛法智慧，指引众生破迷开悟。文殊菩萨是启迪觉性、增益才智的核心本尊。虔诚敬奉，可护佑思维明澈、决断精准，于学业事业中得智慧加持，破障前行；更能感召妙吉祥之气，令福慧增长，身心清净，在智慧与慈悲的护持下，诸事顺遂，走向圆满。",
     price: "￥15000",
     collector: "",
-    imageUrl: "/products/文殊菩萨.jpg",
+    imageUrl: "/products/manjusri-bodhisattva.jpg",
   },
   {
     id: "medicine-tsa-tsa-08",
@@ -85,7 +85,7 @@ export const products = [
       "以大昭寺释迦牟尼等身佛（觉悟佛）为造像蓝本，承载着藏传佛教中至为殊胜的精神内核。大昭寺的觉悟佛，相传为释迦牟尼佛亲自加持的十二岁等身像，被视为佛的真身示现。造像宝冠庄严、法相慈悲，象征着佛陀圆满的智慧与无量的慈悲。寓意着亲近觉悟之道，以佛的智慧观照自心，以慈悲之心待人处事。其散发的药香，亦如佛法的熏习，帮助人们在喧嚣中沉淀心神，在烦恼中寻得清凉，时刻提醒着众生皆有佛性，皆可觉悟。",
     price: "￥3600",
     collector: "",
-    imageUrl: "/products/觉悟佛.jpg",
+    imageUrl: "/products/enlightened-buddha.jpg",
   },
 
   {
@@ -97,7 +97,7 @@ export const products = [
       "正面观音立于祥龙祥云间，慈悲清净，护佑心安；背面盘龙灵动，乘势而上，象征力量与升腾。一阴一阳，刚柔并济，既是观音的慈悲护佑，亦是龙的进取智慧。它随体温散发淡雅香韵，将传统香道与精神信仰融于日常。佩戴它，便将 '心安不惧，行稳致远' 的信念随身携带，是一份可触摸的精神信物。",
     price: "￥5800",
     collector: "",
-    imageUrl: "/products/观音香牌.jpg",
+    imageUrl: "/products/guanyin-incense-plaque.jpg",
   },
   {
     id: "taoist-plate-03",
@@ -108,7 +108,7 @@ export const products = [
       "持戒” 二字居中，外覆卷草纹与宝相纹，寓意以清净之心护持戒律。整体造型如心之容器，提醒佩戴者：戒，并非束缚，而是守护内心清净的铠甲。它随体温散发淡雅香韵，将传统香道与修行之心融于日常。佩戴它，便是将 '心有所戒，行有所止' 的信念随身携带，在喧嚣中守住本心，在纷繁中保持清醒。",
     price: "￥3000",
     collector: "",
-    imageUrl: "/products/持戒香牌.jpg",
+    imageUrl: "/products/precept-holding-incense-plaque.jpg",
   },
   {
     id: "taoist-plate-04",
@@ -119,7 +119,7 @@ export const products = [
       "正面 '舍得' 二字，被祥云环绕，寓意 舍是智慧，得是福报 ，在纷繁世事中，懂得放下，方能自在。背面含义 '不舍不得，放下即得' 的箴言，点明舍得的真谛，佩戴它，便是将 '心有取舍，行有方圆' 的信念随身携带，在喧嚣中守住本心，在得失间保持清醒。",
     price: "￥5300",
     collector: "",
-    imageUrl: "/products/舍得香牌.jpg",
+    imageUrl: "/products/give-and-take-incense-plaque.jpg",
   },
   {
     id: "taoist-plate-05",
@@ -130,7 +130,7 @@ export const products = [
       "这款 '时来运转' 香牌，是一份随身的转运祈愿。正面为法轮纹样，层层转动，寓意轮回不息、时运流转，象征着困境终会过去，好运即将开启；背面 '依君所求，还君所愿' 平安护身符传递美好期许。将 '时来运转，万事顺遂' 的信念随身携带，在低谷时积蓄力量，在顺境中保持清醒。",
     price: "￥3300",
     collector: "",
-    imageUrl: "/products/时来运转香牌.jpg",
+    imageUrl: "/products/fortune-turning-incense-plaque.jpg",
   },
   {
     id: "taoist-plate-06",
@@ -141,7 +141,7 @@ export const products = [
       "这款福字香牌，是一份随身的福气与心安。牌面中央的 '福' 字，以传统团寿纹为底，线条凝练，寓意福运绵长、福寿双全；顶部的卷云纹如祥云护顶，传递着 '福自天来' 的美好期许。整体造型简约大方，不事雕琢，却在质朴中透着庄重与温暖。您将 '福运随身，岁岁安康' 的信念随身携带，在平凡日子里收获一份稳稳的安心与喜悦。",
     price: "￥4200",
     collector: "",
-    imageUrl: "/products/福香牌.jpg",
+    imageUrl: "/products/fortune-incense-plaque.jpg",
   },
   {
     id: "taoist-plate-07",
@@ -152,7 +152,7 @@ export const products = [
       "这款莲花香牌，是一份随身的清净与修行。正面 '佛' 字高悬，下衬舒展的莲花与祥云，寓意佛心自现，莲心不染，象征在纷繁世事中，以佛心指引，保持内心的纯净与自在；背面六字真言与莲纹相衬，传递清净护佑、福慧双增的美好祈愿。'心似莲开，佛念随身' 的信念随身携带，在喧嚣中守住本心，在纷扰中寻得自在。",
     price: "￥5100",
     collector: "",
-    imageUrl: "/products/莲花香牌.jpg",
+    imageUrl: "/products/lotus-incense-plaque.jpg",
   },
   {
     id: "incense-moxa-01",

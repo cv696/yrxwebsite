@@ -68,7 +68,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden rounded-3xl md:min-h-[88vh]">
         {/* 模糊背景 */}
-        <div className="absolute inset-0 bg-[url('/首页背景.jpg')] bg-cover bg-center bg-no-repeat blur-sm" />
+        <div className="absolute inset-0 bg-[url('/homepage-background.jpg')] bg-cover bg-center bg-no-repeat blur-sm" />
         <div className="absolute inset-0 bg-ash/30" />
         <div className="absolute inset-0 bg-gradient-to-br from-black/45 via-black/25 to-black/55 mix-blend-multiply" />
 
@@ -83,7 +83,7 @@ export default function Home() {
               {/* 竖排主标题 */}
               <div className="flex h-52 items-center justify-center px-4 py-6 md:h-64 md:px-6">
                 <img 
-                  src="/缘融轩final.svg" 
+                  src="/yuanrongxuan-final.svg" 
                   alt="缘融轩香舍" 
                   className="h-full w-auto object-contain"
                 />

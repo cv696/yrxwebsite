@@ -3,21 +3,7 @@
 import Image from "next/image";
 import { useMemo, useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { motion } from "framer-motion";
 import { productCategories, products } from "../../data/products";
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: (delay: number = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.9,
-      ease: [0.19, 1, 0.22, 1] as const,
-      delay,
-    },
-  }),
-};
 
 export default function CollectionsPage() {
   const searchParams = useSearchParams();

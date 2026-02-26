@@ -78,7 +78,7 @@ export default function CraftsmanshipPage() {
         {/* 添加匠人页面图片 */}
         <div className="relative overflow-hidden rounded-3xl border border-sandalwood/20">
           <img
-            src="/products/匠人页面1.jpg"
+            src="/products/craftsman-page-1.jpg"
             alt="匠人制作过程"
             className="w-full h-auto object-cover"
           />
@@ -121,7 +121,7 @@ export default function CraftsmanshipPage() {
               <div className="mt-6 space-y-2">
                 <div className="relative overflow-hidden rounded-3xl border border-sandalwood/20">
                   <img
-                    src="/龙延香.jpg"
+                    src="/dragon-blood-incense.jpg"
                     alt="李国荣医师展示收藏的极品龙延香"
                     className="w-full h-auto object-cover"
                   />
@@ -155,7 +155,7 @@ export default function CraftsmanshipPage() {
               <div className="mt-4 space-y-2">
                 <div className="relative overflow-hidden rounded-3xl border border-sandalwood/20">
                   <img
-                    src="/手工1.jpg"
+                    src="/handcraft-1.jpg"
                     alt="钟师傅揉香"
                     className="w-full h-auto object-cover"
                   />
