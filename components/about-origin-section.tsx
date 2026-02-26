@@ -24,25 +24,25 @@ export function AboutOriginSection() {
   // 轮播图片数据
   const slides = [
     {
-      src: "/邓朴方.jpg",
+      src: "/deng-pufang.jpg",
       alt: "邓朴方与李国荣医师",
       title: "与邓朴方先生",
       description: "前残联会荣誉主席邓朴方与李国荣医师"
     },
     {
-      src: "/多吉才让.jpg",
+      src: "/duoji-cairang.jpg",
       alt: "多吉才让与李国荣医师",
       title: "与多吉才让先生",
       description: "前民政部长多吉才让与李国荣医师"
     },
     {
-      src: "/汤小泉.jpg",
+      src: "/tang-xiaoquan.jpg",
       alt: "汤小泉与李国荣医师",
       title: "与汤小泉女士",
       description: "前残联会副主席汤小泉与李国荣医师"
     },
     {
-      src: "/元旦仁波切.jpg",
+      src: "/lama-yuan-dan.jpg",
       alt: "元旦坚赞仁波切与李国荣医师",
       title: "与元旦坚赞仁波切",
       description: "元旦坚赞仁波切与李国荣医师"
