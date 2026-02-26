@@ -174,7 +174,7 @@ export const products = [
       "珠佑天香，药香凝珠，银杵护持，松石缀尾。天香萦腕，珠影含光，祈清宁，佑心安，禅韵自生。",
     price: "￥5300",
     collector: "中国台湾张先生",
-    imageUrl: "/products/珠佑天香.jpg",
+    imageUrl: "/products/pearl-blessing-heavenly-incense.jpg",
   },
   {
     id: "yxz_02",
@@ -186,7 +186,7 @@ export const products = [
       "这串宝瓶貔貅药香珠手串，以极品藏红花及绿奇楠沉香为底，绿松石貔貅宝瓶为核，辅以银饰与红珠点缀。貔貅寓意招财纳福、镇宅辟邪，宝瓶象征福慧圆满、平安顺遂，药香沁心安神，藏韵流转腕间，既承藏地祈福之灵，又具东方雅致之美，是护佑身心、祈愿顺遂的随身吉物。",
     price: "￥3300",
     collector: "中国台湾潘女士",
-    imageUrl: "/products/宝瓶貔貅.jpg",
+    imageUrl: "/products/treasure-vase-pixiu.jpg",
   },
   {
     id: "yxz_03",
@@ -198,7 +198,7 @@ export const products = [
       "这串“赤翠凝香五十四数珠”，以陈年药香珠为主体，赤翠双色相映，银饰宝光流转。其五十四之数，源自大乘修证之阶，暗合断除五十四烦恼、渐次证悟菩提之道。药香萦腕，禅韵自生，既是修心助道之器，亦是藏韵东方的随身雅物。",
     price: "￥5300",
     collector: "中国台湾吴先生",
-    imageUrl: "/products/赤翠凝香五十四数珠.jpg",
+    imageUrl: "/products/red-jade-fragrant-54-beads.jpg",
   },
   {
     id: "yxz_04",
@@ -210,7 +210,7 @@ export const products = [
       "这串“丹青赤玉五十四数珠”，以丹赤药香珠为骨，青碧松石为韵，赤玉映丹心，丹青含雅意。五十四之数，暗合大乘修证之阶，寓意断惑证真、福慧双增。药香萦腕，丹青入怀，既是静修之器，亦是随身吉物，藏韵流转，雅意自生。",
     price: "￥5300",
     collector: "中国广州周女士",
-    imageUrl: "/products/丹青赤玉五十四数珠.jpg",
+    imageUrl: "/products/danqing-red-jade-54-beads.jpg",
   },
   {
     id: "yxz_05",
@@ -222,7 +222,7 @@ export const products = [
       "“归藏碧英香五十四数珠”，取药香珠之温润，松石之清灵，归藏含藏福纳瑞之意，碧英喻青华之瑞。五十四数珠，承修证之理，祈断除烦恼、渐入佳境。药香清润，碧色映心，既有东方雅致之美，亦含祈福护佑之心。",
     price: "￥5300",
     collector: "中国台湾张先生",
-    imageUrl: "/products/归藏碧英香五十四数珠.jpg",
+    imageUrl: "/products/guicang-green-jade-incense-54-beads.jpg",
   },
   {
     id: "yxz_06",
@@ -234,7 +234,7 @@ export const products = [
       "“寂照莲华唯心是念一百零八数珠”，取药香珠之温润，景泰蓝之华彩，寂照含澄明观照之意，莲华喻清净本心。百八数珠，断百八烦恼，唯心是念，明万法唯心之理。药香清润，莲华映心，既有东方禅意之美，亦含祈福护佑之心。",
     price: "￥13600",
     collector: "中国福建赵女士",
-    imageUrl: "/products/寂照莲华唯心是念.jpg",
+    imageUrl: "/products/silent-illumination-lotus-mindfulness.jpg",
   },
   {
     id: "yxz_07",
@@ -246,7 +246,7 @@ export const products = [
       "“流光般若五十四数珠”，以药香珠为基，赤翠宝饰为韵，流光含慧光遍照之致，般若表究竟智慧之德。五十四数珠，承大乘修证之理，寓意断除五十四烦恼，渐证菩提。药香沁心，流光映怀，既具东方美学之韵，亦含祈福护佑之吉。",
     price: "￥5300",
     collector: "中国台湾张先生",
-    imageUrl: "/products/流光般若五十四数珠.jpg",
+    imageUrl: "/products/flowing-light-prajna-54-beads.jpg",
   },
   {
     id: "yxz_08",
@@ -258,7 +258,7 @@ export const products = [
       "这串“云栖药露五十四数珠”，药香珠温润古朴，朱砂真言饰华彩灵动。云栖寓意栖心云水、清净自在，药露象征药香沁心、祛浊纳祥。五十四之数，断五十四烦恼，渐证菩提。药香萦腕，云栖入怀，是兼具禅意与吉祥的随身雅物。",
     price: "￥5300",
     collector: "中国台湾张先生",
-    imageUrl: "/products/云栖药露五十四数珠.jpg",
+    imageUrl: "/products/cloud-residence-medicine-dew-54-beads.jpg",
   },
   {
     id: "yxz_09",
@@ -270,7 +270,7 @@ export const products = [
       "“云狮宁香五十四数珠”，取药香珠之古朴，朱砂狮饰之祥瑞，云狮含祥云伴瑞狮、辟邪守安之意，宁香喻药香清润、涤荡尘嚣。五十四数珠承修证之理，祈断惑纳祥，兼具东方禅韵与吉祥寓意，随身相伴，福泽绵长。",
     price: "￥5300",
     collector: "中国台湾张先生",
-    imageUrl: "/products/云狮宁香五十四数珠.jpg",
+    imageUrl: "/products/cloud-lion-calm-incense-54-beads.jpg",
   },
   {
     id: "yxz_10",
@@ -282,7 +282,7 @@ export const products = [
       "这串“真言藏韵手串”，药香珠醇厚古雅，青白玉头清透灵动，银饰真言牌庄严古朴。藏韵寓意藏地禅韵萦腕，真言象征护佑安康、福慧圆满。药香沁心，藏韵入怀，是兼具藏地文化与东方禅意的随身吉物。",
     price: "￥5300",
     collector: "中国台湾滕先生",
-    imageUrl: "/products/真言藏韵手串.jpg",
+    imageUrl: "/products/mantra-tibetan-rhyme-bracelet.jpg",
   },
   {
     id: "yxz_11",
@@ -294,7 +294,7 @@ export const products = [
       "这串“朱兰沁馨药禅五十四数珠”，药香珠醇厚温润，朱蓝宝饰尽显雅致。朱兰寓意赤心向善、清宁顺遂，沁馨象征药香萦怀、岁月安恬，药禅藏以香悟禅之智。五十四之数助断惑，是集吉祥与禅意的随身雅物。",
     price: "￥5300",
     collector: "中国广州胡女士",
-    imageUrl: "/products/朱兰沁馨药禅五十四数珠.jpg",
+    imageUrl: "/products/red-orchid-fragrant-medicine-ch禅-54-beads.jpg",
   },
 ];
 

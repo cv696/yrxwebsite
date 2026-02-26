@@ -32,7 +32,7 @@ export function SiteHeader() {
             <div className="flex items-center gap-3 md:gap-4">
               <div className="relative h-8 w-auto md:h-9 lg:h-10">
                 <Image
-                  src="/缘融轩Logo.png"
+                  src="/yuanrongxuan-logo.png"
                   alt="缘融轩 Logo"
                   width={160}
                   height={40}
@@ -47,7 +47,7 @@ export function SiteHeader() {
                 </span>
                 <div className="mt-0.5">
                   <Image
-                    src="/标语.png"
+                    src="/slogan.png"
                     alt="标语"
                     width={120}
                     height={20}
