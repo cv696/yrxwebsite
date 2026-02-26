@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState, useEffect, Suspense } from "react"; // 导入 Suspense
+import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { productCategories, products } from "../../data/products";
+import * as OpenCC from 'opencc-js';
 
 // 1. 创建一个子组件来处理所有包含 searchParams 的逻辑
 function CollectionsContent() {
@@ -26,8 +27,11 @@ function CollectionsContent() {
   const filteredProducts = useMemo(
     () => {
       if (isSearching && searchTerm.trim()) {
+        // 搜索模式：根据产品名称过滤，支持简繁转换
+        const converter = OpenCC.Converter({ from: 'hk', to: 'cn' });
+        const simplifiedSearchTerm = converter(searchTerm); // 将繁体字转换为简体字
         return products.filter((p) =>
-          p.name.toLowerCase().includes(searchTerm.toLowerCase())
+          p.name.toLowerCase().includes(simplifiedSearchTerm.toLowerCase())
         );
       } else {
         return products.filter((p) =>
