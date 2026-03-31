@@ -154,16 +154,39 @@ export const products = [
     collector: "",
     imageUrl: "/products/lotus-incense-plaque.jpg",
   },
+
   {
-    id: "incense-moxa-01",
-    name: "香灸条 · 清肺安眠款",
+    id: "incense-moxibustion-01",
+    name: "凌霄 · 觉",
     category: "incense-moxibustion",
-    ingredients: "艾绒基底 · 白檀 · 柏科沉香 · 罗汉果 · 藏红花",
+    ingredients: "麝香，丹参，西洋参，龙脑以及其他天然草本植物秘方",
     description:
-      "为现代呼吸养护与睡眠调理研发的新型香灸条，香气轻柔，不呛不燥，可配合胸背部艾灸使用。",
-    price: "￥980",
-    collector: "",
-    imageUrl: "/products/incense-moxa-01.jpg",
+      "犹如晨间穿透云雾的第一缕阳光，直抵神明。专为高强度脑力劳动者设计。清凉通透的草本气息能迅速驱散倦意，在呼吸间唤醒沉睡的专注力，是您书房或办公桌前的最佳伴侣。",
+    price: "￥2200",
+    collector: "缘融轩",
+    imageUrl: "/products/lin_xiao_jue.jpg",
+  },
+  {
+    id: "incense-moxibustion-02",
+    name: "藏真 · 固",
+    category: "incense-moxibustion",
+    ingredients: "鹿茸，海马，红参，以及其他天然草本植物秘方",
+    description:
+      "仿若深秋大地般的厚重与稳健，内敛而有力。针对元气损耗、身体倦怠感设计。以温性草本为基底，药香沉稳深邃，旨在通过绵长的香气温导，帮助身体重塑内在能量的平衡。",
+    price: "￥2200",
+    collector: "缘融轩",
+    imageUrl: "/products/can_zhen_gu.jpg",
+  },
+  {
+    id: "incense-moxibustion-03",
+    name: "清风 · 息",
+    category: "incense-moxibustion",
+    ingredients: "辛夷花，鹅不食草，以及其他天然草本植物秘方",
+    description:
+      "如同山间溪畔吹过的徐徐清风，拂去鼻息间的纷扰。针对呼吸不畅、季节性敏感等困扰设计。特选辛夷、苍耳等天然本草，其香气分子具备极强的穿透力，能有效调理局部气息，令您的每一次呼吸都变得通透、从容。",
+    price: "￥2200",
+    collector: "缘融轩",
+    imageUrl: "/products/qing_feng_xi.jpg",
   },
   {
     id: "yxz_01",
