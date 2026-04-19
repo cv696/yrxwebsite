@@ -213,16 +213,22 @@ function CollectionsContent() {
                   </p>
                 </div>
 
-                <p className="text-sm leading-loose text-foreground/75 md:w-5/6 pl-4.5">
-                  {product.description}
-                </p>
-
-                <div className="mt-4 flex flex-col gap-1 text-xs text-foreground/60 pl-4.5">
-                  <span className="font-heading tracking-widest text-accent/80">
-                    配方
-                  </span>
-                  <span>{product.ingredients}</span>
+                <div className="text-sm text-foreground/75 md:w-5/6 pl-4.5">
+                  {product.description.includes('<p') ? (
+                    <div dangerouslySetInnerHTML={{ __html: product.description }} />
+                  ) : (
+                    <p className="leading-loose">{product.description}</p>
+                  )}
                 </div>
+
+                {product.ingredients && (
+                  <div className="mt-4 flex flex-col gap-1 text-xs text-foreground/60 pl-4.5">
+                    <span className="font-heading tracking-widest text-accent/80">
+                      配方
+                    </span>
+                    <span>{product.ingredients}</span>
+                  </div>
+                )}
 
                 <div className="mt-4 flex flex-wrap gap-4 text-xs pl-4.5">
                   {product.price && (

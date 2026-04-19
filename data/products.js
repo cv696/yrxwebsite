@@ -189,6 +189,28 @@ export const products = [
     imageUrl: "/products/qing_feng_xi.jpg",
   },
   {
+    id: "incense-moxibustion-04",
+    name: "暗香・韵",
+    category: "incense-moxibustion",
+    ingredients: "",
+    description:
+      "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>—— 琉璃世界，红炉暗香 ——</p><p class='text-center mb-2'>琉璃世界白雪红梅，脂香凝雪不染尘。</p><p class='text-center text-sm text-foreground/60 mb-6'>——《红楼梦》第五十回</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》第五十回，琉璃世界白雪皑皑，栊翠庵寒梅如胭脂映雪。众人踏雪寻芳，妙玉撷天地清雪烹茶。曹公一支妙笔，写尽中式文人极致冬日雅韵 —— 皑皑白雪、傲骨寒梅、清雅幽芳。</p><p class='leading-relaxed mb-4'>缘融轩以此传世意境为灵感，甄选寒冬腊月凌霜盛放上品腊梅，凝撷冰雪淬炼的凛寒清韵，糅合千年奇楠温润厚蕴，以草本珍萃为引，贯通全香气韵，龙涎安魂定魄、稳固香魂。</p><p class='leading-relaxed mb-6'>三载窖藏陈化，褪尽凡尘燥气，只余一缕绵长幽远腊梅寒香，一呼一吸间，复刻红楼雪里那缕千古动人暗香。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>腊梅傲雪・清冽主香</p><p class='mb-2'><span class='text-accent/80'>臣：</span>龙涎凝韵・定香锁魂</p><p class='mb-2'><span class='text-accent/80'>佐：</span>千年奇楠・温润沉厚</p><p class='mb-6'><span class='text-accent/80'>使：</span>珍萃草本・白檀、藏红花引和行气</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵层次】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>腊梅清冽绝尘，如雪岭初绽第一缕幽芳，涤荡世间尘嚣</p><p class='mb-2'><span class='text-accent/80'>中调：</span>奇楠沉香缓缓漫溢，绵长悠远，似暮色远山，静谧安然</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>龙涎稳韵收束，余韵缠绵不绝，萦绕襟袖，久久不散</p><p class='leading-relaxed mb-6'>一炉清雅暗香，封存红楼千古冬日诗意。静伴朝夕，拂去俗世纷扰，唤醒骨子里的中式风骨与温柔禅意。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱内敛雅韵、心性沉静、追求东方雅致慢生活之人</p>",
+    price: "￥4000",
+    collector: "缘融轩",
+    imageUrl: "/products/an_xiang_yun.jpg",
+  },
+  {
+    id: "incense-moxibustion-05",
+    name: "玉兰・清",
+    category: "incense-moxibustion",
+    ingredients: "",
+    description:
+      "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>—— 春风入梦，玉兰满庭 ——</p><p class='text-center mb-2'>东风袅袅泛崇光，香雾空蒙月转廊。</p><p class='text-center text-sm text-foreground/60 mb-6'>—— 苏轼海棠诗，红楼大观园春韵化用</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》大观园春日盛景，秋爽斋雅致疏朗，潇湘馆竹影清幽，怡红院雕梁绘彩，遍植玉兰、海棠、牡丹，暗合玉堂富贵吉祥意韵。满园春风婉转，兰馨桂馥，清雅不妖，温润不俗，写尽世家女子温婉空灵的东方诗意。</p><p class='leading-relaxed mb-4'>缘融轩以此春日雅境为灵感，甄选春分初绽含苞白玉兰，凝撷阳春清逸高洁气韵，糅合奇楠沉韵沉稳内敛，柔婉花香调和气韵流转，珍萃草木相辅相生。</p><p class='leading-relaxed mb-6'>三韵交融、古法和合，褪去浮艳浮躁，只余一缕清雅温润玉兰幽香，一呼一吸间，梦回大观园烟雨春风，静赏红楼半生温柔诗意。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>白玉兰・清雅主韵</p><p class='mb-2'><span class='text-accent/80'>臣：</span>奇楠沉香・镇香稳序</p><p class='mb-2'><span class='text-accent/80'>佐：</span>玫瑰、檀香・柔润调和</p><p class='mb-6'><span class='text-accent/80'>使：</span>珍萃草本・引脉行气、贯通全香</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>玉兰清逸绝尘，如春风拂槛，晨露含芳，干净通透不染尘俗</p><p class='mb-2'><span class='text-accent/80'>中调：</span>玫瑰温婉与沉香沉雅交织，刚柔相济，似钗黛风骨，端庄灵动相得益彰</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>幽韵绵长内敛，香魂沉静不散，萦绕襟袖，恰似大观园缱绻春梦，温柔绵长</p><p class='leading-relaxed mb-4'>一炉清雅玉兰韵，半卷红楼春日长。</p><p class='leading-relaxed mb-6'>春风万千，不及这一缕沁心入骨、温婉淡然的雅香。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱清雅花香、心性温婉通透、向往诗意雅致东方生活之人</p>",
+    price: "￥2200",
+    collector: "缘融轩",
+    imageUrl: "/products/yu_lang_qing.jpg",
+  },
+  {
     id: "yxz_01",
     name: "珠佑天香手串",
     category: "medicine-incense-beads",
@@ -282,6 +304,17 @@ export const products = [
     price: "￥5300",
     collector: "中国台湾张先生",
     imageUrl: "/products/cloud-residence-medicine-dew-54-beads.jpg",
+  },
+  {
+    id: "yxz_10",
+    name: "赤霞金睛手串",
+    category: "medicine-incense-beads",
+    ingredients: "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "腕间赤霞凝香，掌中金睛观韵。缘融轩甄选多味道地药材古法炮制赤霞香珠，珠体温润，药香清润沁心；顶珠配黄虎眼石，如金瞳流转，自带晶石灵韵。黑白药师珠与银饰隔片错落点缀，刚柔相济，既是东方香养雅物，亦是腕间风水加持，盘玩佩饰皆得心安与雅致。",
+    price: "￥890",
+    collector: "待结缘",
+    imageUrl: "/products/chixiajinjin.jpg",
   },
   {
     id: "yxz_09",
