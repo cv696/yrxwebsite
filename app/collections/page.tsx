@@ -231,7 +231,7 @@ function CollectionsContent() {
                 )}
 
                 <div className="mt-4 flex flex-wrap gap-4 text-xs pl-4.5">
-                  {product.price && (
+                  {product.price && product.category !== "incense-moxibustion" && (
                     <div className="flex items-center gap-1.5">
                       <span className="font-heading tracking-widest text-secondary/90">
                         价格
