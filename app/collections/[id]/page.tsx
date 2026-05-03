@@ -71,7 +71,7 @@ export default function CollectionDetailPage({ params }: Props) {
                 身心益处
               </h3>
               <ul className="mt-1 space-y-1.5 text-sm leading-relaxed text-ink/80">
-                {usageList.map((item) => (
+                {healthBenefits.map((item) => (
                   <li key={item}>· {item}</li>
                 ))}
               </ul>
