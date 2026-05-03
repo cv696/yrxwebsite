@@ -49,7 +49,7 @@ export default function CollectionDetailPage({ params }: Props) {
             <h2 className="font-heading text-sm tracking-[0.26em] text-sandalwood">
               作品说明
             </h2>
-            <p className="text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
               {product.description}
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function CollectionDetailPage({ params }: Props) {
               <h3 className="font-heading text-xs tracking-[0.24em] text-sandalwood">
                 主要药材
               </h3>
-              <ul className="mt-1 space-y-1.5 text-xs leading-relaxed text-ink/80">
+              <ul className="mt-1 space-y-1.5 text-sm leading-relaxed text-ink/80">
                 {ingredientsList.map((item) => (
                   <li key={item}>· {item}</li>
                 ))}
@@ -70,8 +70,8 @@ export default function CollectionDetailPage({ params }: Props) {
               <h3 className="font-heading text-xs tracking-[0.24em] text-sandalwood">
                 身心益处
               </h3>
-              <ul className="mt-1 space-y-1.5 text-xs leading-relaxed text-ink/80">
-                {healthBenefits.map((item) => (
+              <ul className="mt-1 space-y-1.5 text-sm leading-relaxed text-ink/80">
+                {usageList.map((item) => (
                   <li key={item}>· {item}</li>
                 ))}
               </ul>

@@ -27,14 +27,14 @@ export default function SciencePage() {
         className="space-y-4"
       >
         <div>
-          <h1 className="font-heading text-xl tracking-[0.3em] text-sandalwood sm:text-2xl">
+          <h1 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
             香气与科学
           </h1>
           <p className="mt-2 text-xs font-body uppercase tracking-[0.28em] text-ink/60">
             SCIENCE &amp; CULTURE
           </p>
         </div>
-        <p className="max-w-2xl text-xs leading-relaxed text-ink/75 sm:text-sm">
+        <p className="max-w-2xl text-sm leading-relaxed text-ink/75 sm:text-base">
           缘融轩希望，药香不仅停留在传统与信仰之中，也能在现代科学的语言下被理解——
           从心率变异度（HRV），到迷走神经与嗅觉通路，每一缕香都有其可以被观察的路径。
         </p>
@@ -50,10 +50,10 @@ export default function SciencePage() {
         >
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="font-heading text-sm tracking-[0.26em] text-sandalwood sm:text-base">
+              <h2 className="font-heading text-lg tracking-[0.26em] text-accent sm:text-xl">
                 香气的科学 · HRV
               </h2>
-              <p className="mt-2 text-xs text-ink/70 sm:text-sm">
+              <p className="mt-2 text-sm text-ink/70 sm:text-base">
                 通过心率变异度（Heart Rate Variability, HRV）的变化，观察香气对身心放松
                 与自主神经系统的调节作用。
               </p>
@@ -74,11 +74,11 @@ export default function SciencePage() {
             <p className="text-[11px] font-body uppercase tracking-[0.24em] text-ink/55">
               THE PATH OF SCENT
             </p>
-            <p className="text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
               香气并非只停留在鼻腔，而是通过嗅觉通路，直达与情绪、记忆相关的边缘系统，
               进而影响迷走神经张力与 HRV。
             </p>
-            <div className="mt-4 grid gap-4 text-xs text-ink/80 sm:text-sm">
+            <div className="mt-4 grid gap-4 text-sm text-ink/80 sm:text-base">
               <div className="grid gap-3 sm:grid-cols-4">
                 <div className="flex flex-col items-center rounded-2xl bg-ash/40 px-3 py-4 text-center">
                   <Wind className="mb-2 h-5 w-5 text-sandalwood" strokeWidth={1.5} />
@@ -124,17 +124,17 @@ export default function SciencePage() {
           {/* Text: Musk & Saffron, BBB & Vagus Nerve */}
           <div className="space-y-6 rounded-3xl border border-sandalwood/18 bg-paper/95 p-5">
             <div className="space-y-2">
-              <h3 className="font-heading text-sm tracking-[0.24em] text-sandalwood">
+              <h3 className="font-heading text-lg tracking-[0.24em] text-accent sm:text-xl">
                 麝香与藏红花 · 自主神经的温柔调节
               </h3>
-              <p className="text-xs leading-relaxed text-ink/75 sm:text-sm">
+              <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
                 在传统本草记载与现代研究中，麝香与藏红花常被视为具有安神、活血与调节
                 中枢神经的关键药材。当其以香气形式吸入时，一部分分子通过嗅粘膜进入局部
                 血流，有机会跨越血脑屏障（Blood-Brain Barrier），影响脑内神经递质平衡。
               </p>
             </div>
 
-            <div className="space-y-2 text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <div className="space-y-2 text-sm leading-relaxed text-ink/75 sm:text-base">
               <p>
                 同时，嗅觉信号与呼吸节律的改变，也会通过迷走神经（Vagus
                 Nerve）向下传导，调节心脏节律与内脏张力。当迷走神经张力上升时，
@@ -160,11 +160,11 @@ export default function SciencePage() {
         >
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="font-heading text-sm tracking-[0.26em] text-sandalwood sm:text-base">
+              <h2 className="font-heading text-lg tracking-[0.26em] text-accent sm:text-xl">
                 香灸 · 本草养生调理香疗
               </h2>
-              <p className="mt-2 text-xs text-ink/70 sm:text-sm">
-                以传统养生智慧为基础，将“灸”与“香”合一，让本草通过温和烟气，
+              <p className="mt-2 text-sm text-ink/70 sm:text-base">
+                以传统养生智慧为基础，将"灸"与"香"合一，让本草通过温和烟气，
                 与呼吸、经络和情志缓慢对话，为日常调养提供自然选择。
               </p>
             </div>
@@ -183,8 +183,8 @@ export default function SciencePage() {
             <p className="text-[11px] font-body uppercase tracking-[0.24em] text-ink/55">
               HERBAL WELLNESS AROMATHERAPY
             </p>
-            <p className="text-xs leading-relaxed text-ink/75 sm:text-sm">
-              缘融轩所提出的“香灸”，本质上是一种 " 
+            <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
+              缘融轩所提出的"香灸"，本质上是一种 " 
               <span className="font-semibold text-sandalwood">
                 本草养生香疗
               </span>
@@ -192,7 +192,7 @@ export default function SciencePage() {
               ：以艾绒为体，以药香本草为用，通过温热烟气进入上呼吸道，
               为日常调养提供自然的香疗体验。
             </p>
-            <div className="mt-3 space-y-2 text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <div className="mt-3 space-y-2 text-sm leading-relaxed text-ink/75 sm:text-base">
               <p>
                 与传统线香不同，香灸条更接近“可以被引导的药气”——
                 通过特定部位的温和熏疗，使本草挥发分在
@@ -211,12 +211,12 @@ export default function SciencePage() {
                 HERITAGE · COMPENDIUM OF MATERIA MEDICA
               </p>
             </div>
-            <p className="text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
               《本草纲目》等典籍中，对艾叶、檀香、沉香等药材的特性与熏蒸用法
               早有详尽记载，用于日常调养、舒缓身心、改善环境气场。缘融轩的香灸配方，
               正是在此基础上，结合现代生活需求重新组合。
             </p>
-            <div className="mt-3 grid gap-3 text-xs leading-relaxed text-ink/75 sm:text-sm">
+            <div className="mt-3 grid gap-3 text-sm leading-relaxed text-ink/75 sm:text-base">
               <div>
                 <p className="font-heading text-[11px] tracking-[0.22em] text-sandalwood">
                   安全与节制

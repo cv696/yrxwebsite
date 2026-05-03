@@ -65,14 +65,14 @@ export default function CraftsmanshipPage() {
         className="space-y-4"
       >
         <div>
-          <h1 className="font-heading text-xl tracking-[0.3em] text-sandalwood sm:text-2xl">
+          <h1 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
             匠心与稀世香药
           </h1>
           <p className="mt-2 text-xs font-body uppercase tracking-[0.28em] text-ink/60">
             CRAFTSMANSHIP &amp; RARE INGREDIENTS
           </p>
         </div>
-        <p className="max-w-2xl text-xs leading-relaxed text-ink/75 sm:text-sm">
+        <p className="max-w-2xl text-sm leading-relaxed text-ink/75 sm:text-base">
           缘融轩香舍以稀世香药为墨，以李国荣医师数十年的制香造诣为笔，在炉火纯青之际，凝练出令业内行家争相竞藏的价值。它们不只是香，更是可以佩戴、把玩、传世的立体药香珍藏品。
         </p>
         {/* 添加匠人页面图片 */}
@@ -95,11 +95,11 @@ export default function CraftsmanshipPage() {
         >
           <div className="flex flex-col gap-6">
             <div>
-              <h2 className="font-heading text-sm tracking-[0.26em] text-sandalwood sm:text-base">
+              <h2 className="font-heading text-lg tracking-[0.26em] text-accent sm:text-xl">
                 以稀世香药，雕琢可传世的嗅觉藏品
               </h2>
             </div>
-            <div className="space-y-4 text-xs leading-relaxed text-ink/80 sm:text-sm">
+            <div className="space-y-4 text-sm leading-relaxed text-ink/80 sm:text-base">
               <p>
                 在缘融轩香舍，我们出品的每一枚香珠、每一块香牌、每一尊药擦擦佛像，其价值早已超越了香品本身，被视为可遇不可求的收藏级臻品。这份独特价值，源于我们主理人——李国荣医师的双重身份：他既是一位深谙传统文化的收藏家，更是一位承袭古法的丹药制作大家。
               </p>
@@ -145,10 +145,10 @@ export default function CraftsmanshipPage() {
         >
           <div className="flex items-center justify-between gap-4">
             <div>
-              <h2 className="font-heading text-sm tracking-[0.26em] text-sandalwood sm:text-base">
+              <h2 className="font-heading text-base tracking-[0.26em] text-accent sm:text-lg">
                 无 PVA 匠作原则
               </h2>
-              <p className="mt-2 text-xs text-ink/70 sm:text-sm">
+              <p className="mt-2 text-sm text-ink/70 sm:text-base">
                 在成型效率与手感质地之间，我们选择站在时间与材质自然性的一方。
               </p>
               {/* 添加手工1.jpg图片 */}
@@ -197,7 +197,7 @@ export default function CraftsmanshipPage() {
               </div>
             </div>
 
-            <div className="grid gap-3 text-xs text-ink/75 sm:grid-cols-2">
+            <div className="grid gap-3 text-sm text-ink/75 sm:grid-cols-2">
               <div>
                 <p className="font-body text-[11px] uppercase tracking-[0.2em] text-ink/50">
                   BINDER
@@ -243,7 +243,7 @@ export default function CraftsmanshipPage() {
               </div>
             </div>
 
-            <div className="grid gap-3 text-xs text-ink/80 sm:grid-cols-2">
+            <div className="grid gap-3 text-sm text-ink/80 sm:grid-cols-2">
               <div>
                 <p className="font-body text-[11px] uppercase tracking-[0.2em] text-ink/55">
                   BINDER

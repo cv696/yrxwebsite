@@ -59,8 +59,8 @@ function CollectionsContent() {
           <p className="mt-2 text-xs font-body uppercase tracking-[0.28em] text-foreground/60">
             COLLECTIONS · PRODUCT CATALOG
           </p>
-          <p className="mt-2 max-w-2xl text-xs leading-relaxed text-foreground/75 sm:text-sm">
-            缘融轩香舍之作品皆为稀品，我们使用收藏级别之三千年古稀柏沉香、极品绿奇楠等市面难觅的顶级天然野香药，恪守‘君臣佐使’配伍制药，历经酒浸蜜炙等繁琐炮制。不假胶水之功，唯凭秘制老蜜及配方融合，在百日合香中褪尽燥气，聚敛香韵。因产量稀少，多为资深行家私藏，仅余少量供有缘人传世。
+          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-foreground/75 sm:text-base">
+            缘融轩香舍之作品皆为稀品，我们使用收藏级别之三千年古稀柏沉香、极品绿奇楠等市面难觅的顶级天然野香药，恪守'君臣佐使'配伍制药，历经酒浸蜜炙等繁琐炮制。不假胶水之功，唯凭秘制老蜜及配方融合，在百日合香中褪尽燥气，聚敛香韵。因产量稀少，多为资深行家私藏，仅余少量供有缘人传世。
           </p>
         </div>
       </section>
@@ -137,10 +137,10 @@ function CollectionsContent() {
               <h1 className="font-heading text-lg tracking-[0.3em] text-accent sm:text-xl md:text-2xl">
                 缘融轩 · 草本香灸系列
               </h1>
-              <p className="text-xs font-body italic tracking-[0.2em] text-foreground/70 md:text-sm">
+              <p className="text-xs font-body italic tracking-[0.2em] text-foreground/70 sm:text-sm">
                 —— 循古法之智，纳百草之灵 ——
               </p>
-              <p className="mt-4 max-w-3xl text-xs leading-relaxed text-foreground/75 sm:text-sm md:text-base mx-auto">
+              <p className="mt-4 max-w-3xl text-sm leading-relaxed text-foreground/75 sm:text-base md:text-base mx-auto">
                 在繁忙的现代生活节奏中，我们往往遗忘了呼吸的质感。「缘融轩」秉持对自然的敬畏，将传统草本智慧转化为日常可感的香气疗愈。这不仅是一缕烟云，更是一次身心的归位。
               </p>
             </div>
@@ -149,10 +149,10 @@ function CollectionsContent() {
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
                 ｜大师匠心 · 独家传承｜
               </h2>
-              <p className="text-xs leading-relaxed text-foreground/75 sm:text-sm">
+              <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
                 缘融轩香灸，由资深中医主任医师李国荣教授亲自操刀配方。李教授深耕传统医学数十载，将深厚的中医药理与古法炮制技艺完美融合。
               </p>
-              <ul className="mt-4 space-y-3 text-xs text-foreground/75 sm:text-sm">
+              <ul className="mt-4 space-y-3 text-sm text-foreground/75 sm:text-base">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
                   <span><strong className="text-accent/80">纯天然基料：</strong> 严选道地天然草本，拒绝任何化学添加剂、尼古丁与人工香精。</span>
@@ -172,7 +172,7 @@ function CollectionsContent() {
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
                 ｜三味意境 · 定向调理｜
               </h2>
-              <p className="mt-2 text-xs leading-relaxed text-foreground/75 sm:text-sm">
+              <p className="mt-2 text-sm leading-relaxed text-foreground/75 sm:text-base">
                 我们针对现代人的三种典型状态，研发了三款各具神韵的香灸产品：
               </p>
             </div>
@@ -222,7 +222,7 @@ function CollectionsContent() {
                 </div>
 
                 {product.ingredients && (
-                  <div className="mt-4 flex flex-col gap-1 text-xs text-foreground/60 pl-4.5">
+                  <div className="mt-4 flex flex-col gap-1 text-sm text-foreground/60 pl-4.5">
                     <span className="font-heading tracking-widest text-accent/80">
                       配方
                     </span>
@@ -230,7 +230,7 @@ function CollectionsContent() {
                   </div>
                 )}
 
-                <div className="mt-4 flex flex-wrap gap-4 text-xs pl-4.5">
+                <div className="mt-4 flex flex-wrap gap-4 text-sm pl-4.5">
                   {product.price && product.category !== "incense-moxibustion" && (
                     <div className="flex items-center gap-1.5">
                       <span className="font-heading tracking-widest text-secondary/90">
@@ -259,10 +259,10 @@ function CollectionsContent() {
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
                 使用之道
               </h2>
-              <p className="text-xs leading-relaxed text-foreground/75 sm:text-sm">
+              <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
                 香灸的使用过程，是一场安静的仪式。
               </p>
-              <p className="text-xs leading-relaxed text-foreground/75 sm:text-sm">
+              <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
                 将香灸点燃或加热，让草本精油随着温润的烟气缓缓释放。您可以随身携带，在感到疲惫或不适时，借由这份来自大山的药香，完成一次深度的自我清理与重启。
               </p>
               <p className="mt-4 text-center text-sm font-body italic tracking-[0.15em] text-accent/80">

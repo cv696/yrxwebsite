@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Ma_Shan_Zheng, Noto_Sans_SC } from "next/font/google";
+import { Noto_Serif_SC, Noto_Sans_SC } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
 
-const headingFont = Ma_Shan_Zheng({
+const headingFont = Noto_Serif_SC({
   subsets: ["latin"],
   variable: "--font-heading",
-  weight: ["400"],
+  weight: ["400", "700"],
 });
 
 const bodyFont = Noto_Sans_SC({

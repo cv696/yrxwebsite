@@ -18,10 +18,8 @@ const fadeUp = {
 };
 
 export function AboutOriginSection() {
-  // 轮播状态管理
   const [currentSlide, setCurrentSlide] = useState(0);
   
-  // 轮播图片数据
   const slides = [
     {
       src: "/deng-pufang.jpg",
@@ -49,21 +47,18 @@ export function AboutOriginSection() {
     }
   ];
   
-  // 切换到下一张
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
   
-  // 切换到上一张
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
   
-  // 自动轮播逻辑
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 5000); // 每5秒切换一次
+    }, 5000);
     
     return () => {
       clearInterval(interval);
@@ -72,32 +67,27 @@ export function AboutOriginSection() {
   
   return (
     <section className="mx-auto max-w-6xl space-y-12 rounded-3xl bg-primary/80 px-5 py-10 shadow-[0_18px_60px_rgba(0,0,0,0.06)] md:space-y-14 md:px-8 md:py-14">
-      {/* 标题 */}
       <div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
               缘起与初心
             </h2>
-            <p className="mt-2 text-xs font-body uppercase tracking-[0.28em] text-foreground/60">
+            <p className="mt-2 text-sm font-body uppercase tracking-[0.28em] text-foreground/60 sm:text-xs">
               ORIGIN STORY
             </p>
           </div>
-          <p className="max-w-md text-xs leading-relaxed text-foreground/70 sm:text-sm">
+          <p className="max-w-md text-sm leading-relaxed text-foreground/70 sm:text-base">
             缘融轩·药香珠的诞生，源自一位中医师、一位仁波切与几枚尘封百年的
             擦擦模具，在时代的缝隙中完成的相遇。
           </p>
         </div>
       </div>
 
-      {/* 左右分栏 */}
       <div className="grid gap-8 md:grid-cols-[minmax(0,1.05fr)_minmax(0,1.2fr)] md:items-start">
-        {/* 左侧：创始人 / 模具影像 */}
         <div className="space-y-6">
           <div className="relative overflow-hidden rounded-3xl border border-accent/18 bg-primary/40">
-            {/* 轮播图容器 */}
             <div className="relative aspect-[4/5] w-full">
-              {/* 轮播图片 */}
               {slides.map((slide, index) => (
                 <div
                   key={index}
@@ -111,7 +101,6 @@ export function AboutOriginSection() {
                     sizes="(min-width: 1024px) 320px, (min-width: 768px) 45vw, 100vw"
                     loading="lazy"
                   />
-                  {/* 图片说明 */}
                   <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent px-5 pb-4 pt-10">
                     <p className="text-[11px] font-body uppercase tracking-[0.28em] text-foreground/70">
                       FOUNDER · DR. LI GUORONG
@@ -119,14 +108,13 @@ export function AboutOriginSection() {
                     <p className="mt-1 font-heading text-sm tracking-[0.3em] text-foreground">
                       {slide.title}
                     </p>
-                    <p className="mt-2 text-xs text-foreground/80">
+                    <p className="mt-2 text-sm text-foreground/80 sm:text-base">
                       {slide.description}
                     </p>
                   </div>
                 </div>
               ))}
               
-              {/* 轮播导航按钮 */}
               <button
                 onClick={prevSlide}
                 className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/30 p-2 text-white hover:bg-black/50 transition-colors"
@@ -146,7 +134,6 @@ export function AboutOriginSection() {
                 </svg>
               </button>
               
-              {/* 轮播指示器 */}
               <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-2">
                 {slides.map((_, index) => (
                   <button
@@ -161,10 +148,10 @@ export function AboutOriginSection() {
           </div>
 
           <div className="space-y-3 rounded-2xl border border-accent/15 bg-primary/90 p-4">
-            <p className="text-xs font-body uppercase tracking-[0.25em] text-foreground/55">
+            <p className="text-sm font-body uppercase tracking-[0.25em] text-foreground/55 sm:text-xs">
               FOUNDER PROFILE
             </p>
-            <div className="space-y-2 text-xs leading-relaxed text-foreground/80">
+            <div className="space-y-2 text-sm leading-relaxed text-foreground/80 sm:text-base">
               <p>李国荣医师 是一位在医学、传统文化与艺术领域均有深厚造诣的大家。</p>
               <p><span className="font-bold">医学创新者</span> ：研发的瘫痪治疗方案，荣获国家发明专利及第29届日内瓦国际发明博览会银奖。</p>
               <p><span className="font-bold">道医传承人</span> ：潜心挖掘传统道医丹药，收集整理上百种古代秘方及稀有香药材。</p>
@@ -174,24 +161,23 @@ export function AboutOriginSection() {
           </div>
 
           <div className="space-y-3 rounded-2xl border border-secondary/20 bg-secondary/3 p-4">
-            <p className="text-xs font-body uppercase tracking-[0.25em] text-secondary/80">
+            <p className="text-sm font-body uppercase tracking-[0.25em] text-secondary/80 sm:text-xs">
               FOUNDER'S WORDS
             </p>
-            <p className="font-heading text-xs leading-relaxed tracking-[0.24em] text-accent">
+            <p className="font-heading text-sm leading-relaxed tracking-[0.24em] text-accent sm:text-base">
               "元旦坚赞仁波切赠我以缘，历史赠我以模，而我愿以『药香佛印』延续这段千年对话。"
             </p>
           </div>
         </div>
 
-        {/* 右侧：品牌故事 */}
         <div className="space-y-6">
           <div className="space-y-3">
-            <h3 className="font-heading text-sm tracking-[0.26em] text-accent sm:text-base">
+            <h3 className="font-heading text-lg tracking-[0.26em] text-accent sm:text-xl">
               缘融轩香舍：于呼吸间，对话千载风雅
             </h3>
           </div>
 
-          <div className="space-y-4 text-xs leading-relaxed text-foreground/75 sm:text-[13px]">
+          <div className="space-y-4 text-sm leading-relaxed text-foreground/75 sm:text-base">
             <p>
               有些缘分，穿越时光而来。2017年，李国荣医师于塔尔寺偶遇元旦坚赞仁波切出关，获赠几枚带着闭关清寂的泥擦擦。这一递，接通了与古老佛艺的善缘，也开启了缘融轩"药香佛印"的千年因缘。
             </p>
@@ -210,4 +196,3 @@ export function AboutOriginSection() {
     </section>
   );
 }
-

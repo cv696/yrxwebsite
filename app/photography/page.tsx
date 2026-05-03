@@ -75,7 +75,7 @@ export default function PhotographyPage() {
         </div>
         
         {/* 文字介绍 */}
-        <div className="max-w-3xl space-y-4 rounded-2xl border border-accent/15 bg-primary/90 p-6 text-xs leading-relaxed text-foreground/80 sm:text-sm">
+        <div className="max-w-3xl space-y-4 rounded-2xl border border-accent/15 bg-primary/90 p-6 text-sm leading-relaxed text-foreground/80 sm:text-base">
           <p>
             数十年前，热爱人文摄影的李国荣医师深入藏区采风。他本想记录风土人情，却在镜头之外，看见偏远藏区生活的艰辛，更看见孩子们眼中求知的光与匮乏的现实。
           </p>
