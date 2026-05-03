@@ -43,8 +43,8 @@ function CollectionsContent() {
   );
 
   const productsToShow = useMemo(
-    () => filteredProducts.slice(0, visibleCount),
-    [filteredProducts, visibleCount],
+    () => activeCategory === "incense-moxibustion" ? filteredProducts : filteredProducts.slice(0, visibleCount),
+    [filteredProducts, visibleCount, activeCategory],
   );
 
   // 这里放你原本 return 里的所有 HTML 内容
@@ -115,7 +115,7 @@ function CollectionsContent() {
                     setSearchTerm('');
                     setVisibleCount(6);
                   }}
-                  className={`relative rounded-full px-3.5 py-1.5 text-[11px] font-body tracking-[0.22em] transition-all ${isActive
+                  className={`relative rounded-full px-3.5 py-1.5 text-base font-body tracking-[0.22em] transition-all ${isActive
                     ? "bg-accent text-primary shadow-sm"
                     : "text-foreground/65 hover:bg-secondary/10"
                     }`}

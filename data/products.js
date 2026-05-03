@@ -163,7 +163,6 @@ export const products = [
     description:
       "犹如晨间穿透云雾的第一缕阳光，直抵神明。专为高强度脑力劳动者设计。清凉通透的草本气息能迅速驱散倦意，在呼吸间唤醒沉睡的专注力，是您书房或办公桌前的最佳伴侣。",
     price: "￥2200",
-    collector: "缘融轩",
     imageUrl: "/products/lin_xiao_jue.jpg",
   },
   {
@@ -174,7 +173,6 @@ export const products = [
     description:
       "仿若深秋大地般的厚重与稳健，内敛而有力。针对元气损耗、身体倦怠感设计。以温性草本为基底，药香沉稳深邃，旨在通过绵长的香气温导，帮助身体重塑内在能量的平衡。",
     price: "￥2200",
-    collector: "缘融轩",
     imageUrl: "/products/can_zhen_gu.jpg",
   },
   {
@@ -185,7 +183,6 @@ export const products = [
     description:
       "如同山间溪畔吹过的徐徐清风，拂去鼻息间的纷扰。针对呼吸不畅、季节性敏感等困扰设计。特选辛夷、苍耳等天然本草，其香气分子具备极强的穿透力，能有效调理局部气息，令您的每一次呼吸都变得通透、从容。",
     price: "￥2200",
-    collector: "缘融轩",
     imageUrl: "/products/qing_feng_xi.jpg",
   },
   {
@@ -196,7 +193,6 @@ export const products = [
     description:
       "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>—— 琉璃世界，红炉暗香 ——</p><p class='text-center mb-2'>琉璃世界白雪红梅，脂香凝雪不染尘。</p><p class='text-center text-sm text-foreground/60 mb-6'>——《红楼梦》第五十回</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》第五十回，琉璃世界白雪皑皑，栊翠庵寒梅如胭脂映雪。众人踏雪寻芳，妙玉撷天地清雪烹茶。曹公一支妙笔，写尽中式文人极致冬日雅韵 —— 皑皑白雪、傲骨寒梅、清雅幽芳。</p><p class='leading-relaxed mb-4'>缘融轩以此传世意境为灵感，甄选寒冬腊月凌霜盛放上品腊梅，凝撷冰雪淬炼的凛寒清韵，糅合千年奇楠温润厚蕴，以草本珍萃为引，贯通全香气韵，龙涎安魂定魄、稳固香魂。</p><p class='leading-relaxed mb-6'>三载窖藏陈化，褪尽凡尘燥气，只余一缕绵长幽远腊梅寒香，一呼一吸间，复刻红楼雪里那缕千古动人暗香。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>腊梅傲雪・清冽主香</p><p class='mb-2'><span class='text-accent/80'>臣：</span>龙涎凝韵・定香锁魂</p><p class='mb-2'><span class='text-accent/80'>佐：</span>千年奇楠・温润沉厚</p><p class='mb-6'><span class='text-accent/80'>使：</span>珍萃草本・白檀、藏红花引和行气</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵层次】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>腊梅清冽绝尘，如雪岭初绽第一缕幽芳，涤荡世间尘嚣</p><p class='mb-2'><span class='text-accent/80'>中调：</span>奇楠沉香缓缓漫溢，绵长悠远，似暮色远山，静谧安然</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>龙涎稳韵收束，余韵缠绵不绝，萦绕襟袖，久久不散</p><p class='leading-relaxed mb-6'>一炉清雅暗香，封存红楼千古冬日诗意。静伴朝夕，拂去俗世纷扰，唤醒骨子里的中式风骨与温柔禅意。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱内敛雅韵、心性沉静、追求东方雅致慢生活之人</p>",
     price: "￥4000",
-    collector: "缘融轩",
     imageUrl: "/products/an_xiang_yun.jpg",
   },
   {
@@ -207,8 +203,27 @@ export const products = [
     description:
       "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>—— 春风入梦，玉兰满庭 ——</p><p class='text-center mb-2'>东风袅袅泛崇光，香雾空蒙月转廊。</p><p class='text-center text-sm text-foreground/60 mb-6'>—— 苏轼海棠诗，红楼大观园春韵化用</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》大观园春日盛景，秋爽斋雅致疏朗，潇湘馆竹影清幽，怡红院雕梁绘彩，遍植玉兰、海棠、牡丹，暗合玉堂富贵吉祥意韵。满园春风婉转，兰馨桂馥，清雅不妖，温润不俗，写尽世家女子温婉空灵的东方诗意。</p><p class='leading-relaxed mb-4'>缘融轩以此春日雅境为灵感，甄选春分初绽含苞白玉兰，凝撷阳春清逸高洁气韵，糅合奇楠沉韵沉稳内敛，柔婉花香调和气韵流转，珍萃草木相辅相生。</p><p class='leading-relaxed mb-6'>三韵交融、古法和合，褪去浮艳浮躁，只余一缕清雅温润玉兰幽香，一呼一吸间，梦回大观园烟雨春风，静赏红楼半生温柔诗意。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>白玉兰・清雅主韵</p><p class='mb-2'><span class='text-accent/80'>臣：</span>奇楠沉香・镇香稳序</p><p class='mb-2'><span class='text-accent/80'>佐：</span>玫瑰、檀香・柔润调和</p><p class='mb-6'><span class='text-accent/80'>使：</span>珍萃草本・引脉行气、贯通全香</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>玉兰清逸绝尘，如春风拂槛，晨露含芳，干净通透不染尘俗</p><p class='mb-2'><span class='text-accent/80'>中调：</span>玫瑰温婉与沉香沉雅交织，刚柔相济，似钗黛风骨，端庄灵动相得益彰</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>幽韵绵长内敛，香魂沉静不散，萦绕襟袖，恰似大观园缱绻春梦，温柔绵长</p><p class='leading-relaxed mb-4'>一炉清雅玉兰韵，半卷红楼春日长。</p><p class='leading-relaxed mb-6'>春风万千，不及这一缕沁心入骨、温婉淡然的雅香。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱清雅花香、心性温婉通透、向往诗意雅致东方生活之人</p>",
     price: "￥2200",
-    collector: "缘融轩",
     imageUrl: "/products/yu_lang_qing.jpg",
+  },
+  {
+    id: "incense-moxibustion-06",
+    name: "秋韵・桂香",
+    category: "incense-moxibustion",
+    ingredients: "",
+    description:
+      `<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>——金风桂影，天香入秋，一炉安和——</p><p class='text-center mb-2'>何须浅碧深红色，自是花中第一流。</p><p class='text-center text-sm text-foreground/60 mb-6'>——李清照《鹧鸪天·桂花》</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>金风送爽，桂子飘香，月移桂影，秋韵自成。大观园中秋夜，桂树亭亭，天香漫院，笛声与桂香相融，清辉与幽芳相映，写尽东方秋日里最温润、最安宁的雅韵。缘融轩取中秋桂华之诗意，凝撷金桂清润甜雅之气，合古法草本珍萃，以古方合香之道，炼就一炉<strong>秋韵·桂香</strong>，封存秋日清宁，温养身心，调和情志。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使·古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>金桂清雅·甜润主香，清透不浊，温而不燥</p><p class='mb-2'><span class='text-accent/80'>臣：</span>玫瑰柔婉、檀香沉雅、沉香温煦，行气和中，稳序定香</p><p class='mb-2'><span class='text-accent/80'>佐：</span>薰衣草宁心、龙脑开窍，镇静安神，通透清灵</p><p class='mb-6'><span class='text-accent/80'>使：</span>龙涎香定香增效，延香持效，温润收魂，贯通全方</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>金桂清甜漫溢，如月下桂风拂面，清润通透，涤烦解郁</p><p class='mb-2'><span class='text-accent/80'>中调：</span>沉香、檀香沉稳铺展，柔婉与醇厚交织，行气和中，安稳脾胃</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>龙涎凝香收束，幽韵绵长，安神定志，余韵绕襟，久久不散</p><p class='font-heading text-accent tracking-widest mb-3'>【健康调理·本草温养】</p><p class='leading-relaxed mb-4'>秋韵桂香灸循"主香定效、辅香增效"古法制香，温通经络、调和气血、安神定志，综合调理身心：</p><p class='mb-2'>· 桂花、玫瑰花协同，<strong>疏肝解郁、活血调经</strong>，缓解焦虑、气滞血瘀所致胸胁胀痛；</p><p class='mb-2'>· 檀香、沉香<strong>行气止痛、温肾纳气</strong>，改善胸闷气短、脾胃虚寒；</p><p class='mb-2'>· 薰衣草、龙脑<strong>镇静安神、开窍醒脑</strong>，调节失眠、头痛；</p><p class='mb-6'>· 龙涎香为定香增效之品，<strong>延长药效释放</strong>，强化神经系统舒缓效应。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p class='leading-relaxed mb-4'>情志不畅、焦虑易躁、睡眠欠佳、脾胃虚寒、经期不适、喜清雅秋香、追求身心安和之人。</p><p class='leading-relaxed mb-2'>一炉秋韵桂香，风清月朗，香暖秋安。</p><p class='leading-relaxed'>静伴朝夕，温养身心，归复中式秋日里的从容与安宁。</p>`,
+    price: "",
+    imageUrl: "/products/qiuyunguixiang.jpg",
+  },
+  {
+    id: "incense-moxibustion-07",
+    name: "幽庭 · 玫瑰",
+    category: "incense-moxibustion",
+    ingredients: "",
+    description:
+      `<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>——庭前玫瑰绽，暗香润心宁，一灸愈芳华——</p><p class='text-center mb-2'>等闲识得东风面，万紫千红总是春。</p><p class='text-center text-sm text-foreground/60 mb-6'>——朱熹《春日》，化用红楼幽庭春韵</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>红楼幽庭深处，蔷薇缀径，玫瑰凝香，风过庭前，暗香浮动，藏尽东方女子的温婉与灵动。缘融轩撷取春日幽庭盛放的上品玫瑰，凝撷其柔婉芬芳之气，糅合千年草本珍萃，恪守古法"君臣佐使"合香之道，历经繁琐炮制与窖藏陈化，褪尽浮燥，炼就一炉「幽庭·玫瑰」。以花香为引，以本草为养，让每一缕香气，都成为温润身心、舒缓情志的东方疗愈之息。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使·古方合香】</p><p class='mb-2'><span class='text-accent/80'>君：</span>上品玫瑰·柔婉主香，清甜不腻，温润养气</p><p class='mb-2'><span class='text-accent/80'>臣：</span>檀香沉雅、乳香清透，行气活血，温通经络</p><p class='mb-2'><span class='text-accent/80'>佐：</span>沉香宁心、龙涎香定魂，安神助眠，稳序留香</p><p class='mb-6'><span class='text-accent/80'>使：</span>龙脑清灵，开窍醒神，引药入脉，贯通全香</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃：</span>玫瑰清甜裹挟着淡淡花香，如幽庭春风拂面，柔婉细腻，瞬间抚平心绪浮躁</p><p class='mb-2'><span class='text-accent/80'>中调：</span>檀香、乳香缓缓漫溢，沉雅与清透交织，温通气血，舒缓身心不适感</p><p class='mb-6'><span class='text-accent/80'>尾韵：</span>沉香、龙涎香凝香收束，幽韵绵长，宁心安神，余香萦绕襟袖，温柔持久</p><p class='font-heading text-accent tracking-widest mb-3'>【健康调理·本草温养】</p><p class='leading-relaxed mb-4'>幽庭玫瑰灸以古法合香为基，以本草珍萃为效，兼顾香气疗愈与身心调理，多重滋养，温润安康：</p><p class='mb-2'>· 玫瑰花、檀香为主，疏肝解郁，调节情绪，缓解焦虑、抑郁，抚平心绪波澜；</p><p class='mb-2'>· 乳香、玫瑰协同作用，行气活血，改善气滞血瘀，缓解痛经、胸闷不适；</p><p class='mb-2'>· 沉香、龙涎香相佐，安神助眠，宁心定志，改善失眠多梦，安享一夜好眠；</p><p class='mb-2'>· 龙脑清灵开窍，醒脑提神，舒缓头痛、头昏，恢复身心清爽；</p><p class='mb-6'>· 檀香、乳香温散走窜，温通经络，辅助驱寒除湿，缓解关节冷痛。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p class='leading-relaxed mb-4'>情志不畅、焦虑抑郁、失眠多梦、经期不适、胸闷气短、头痛头昏、关节冷痛，偏爱柔婉花香，追求温婉雅致、身心安和的东方生活之人。</p><p class='leading-relaxed mb-2'>一炉幽庭玫瑰，香润芳华，疗愈身心。</p><p class='leading-relaxed'>静守幽庭，细品香韵，让每一次呼吸，都成为与自己的温柔相遇，归复身心的从容与安康。</p>`,
+    price: "",
+    imageUrl: "/products/youtingmeigui.jpg",
   },
   {
     id: "yxz_01",
