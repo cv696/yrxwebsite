@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { productCategories, products } from "../../data/products";
@@ -186,7 +187,7 @@ function CollectionsContent() {
               key={product.id}
               className="group flex flex-col items-center gap-8 md:flex-row md:even:flex-row-reverse md:gap-16"
             >
-              <div className="relative w-full overflow-hidden rounded-3xl bg-primary/30 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] md:w-1/2">
+              <Link href={`/collections/${product.id}`} className="relative w-full overflow-hidden rounded-3xl bg-primary/30 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.05)] md:w-1/2 transition-transform hover:scale-[1.02]">
                 <div className="relative aspect-[4/3] w-full">
                   <Image
                     src={product.imageUrl || "/placeholder-product.jpg"}
@@ -198,7 +199,7 @@ function CollectionsContent() {
                     priority={index === 0}
                   />
                 </div>
-              </div>
+              </Link>
 
               <div className="flex w-full flex-col gap-4 md:w-1/2 md:py-8">
                 <div className="space-y-2">

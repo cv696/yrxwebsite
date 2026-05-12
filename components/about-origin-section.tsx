@@ -1,21 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: (delay: number = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.9,
-      ease: [0.19, 1, 0.22, 1] as const,
-      delay,
-    },
-  }),
-};
 
 export function AboutOriginSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
