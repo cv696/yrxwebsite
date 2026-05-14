@@ -157,7 +157,7 @@ export const products = [
 
   {
     id: "incense-moxibustion-01",
-    name: "凌霄 · 觉",
+    name: "凌霄觉灸",
     category: "incense-moxibustion",
     ingredients: "麝香，丹参，西洋参，龙脑以及其他天然草本植物秘方",
     description:
@@ -167,7 +167,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-02",
-    name: "藏真 · 固",
+    name: "藏真固灸",
     category: "incense-moxibustion",
     ingredients: "鹿茸，海马，红参，以及其他天然草本植物秘方",
     description:
@@ -177,7 +177,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-03",
-    name: "清风 · 息",
+    name: "清风息灸",
     category: "incense-moxibustion",
     ingredients: "辛夷花，鹅不食草，以及其他天然草本植物秘方",
     description:
@@ -187,7 +187,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-04",
-    name: "暗香・韵",
+    name: "腊梅暗香灸",
     category: "incense-moxibustion",
     ingredients: "",
     description:
@@ -197,7 +197,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-05",
-    name: "玉兰・清",
+    name: "白玉兰香灸",
     category: "incense-moxibustion",
     ingredients: "",
     description:
@@ -207,7 +207,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-06",
-    name: "秋韵・桂香",
+    name: "秋韵桂香灸",
     category: "incense-moxibustion",
     ingredients: "",
     description:
@@ -217,7 +217,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-07",
-    name: "幽庭 · 玫瑰",
+    name: "幽庭玫瑰灸",
     category: "incense-moxibustion",
     ingredients: "",
     description:
