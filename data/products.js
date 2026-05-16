@@ -233,7 +233,7 @@ export const products = [
     description:
       "珠佑天香，药香凝珠，银杵护持，松石缀尾。天香萦腕，珠影含光，祈清宁，佑心安，禅韵自生。",
     price: "￥5300",
-    collector: "中国台湾张先生",
+    collector: "中国台湾李先生",
     imageUrl: "/products/pearl-blessing-heavenly-incense.jpg",
   },
   {
@@ -328,7 +328,7 @@ export const products = [
     description:
       "腕间赤霞凝香，掌中金睛观韵。缘融轩甄选多味道地药材古法炮制赤霞香珠，珠体温润，药香清润沁心；顶珠配黄虎眼石，如金瞳流转，自带晶石灵韵。黑白药师珠与银饰隔片错落点缀，刚柔相济，既是东方香养雅物，亦是腕间风水加持，盘玩佩饰皆得心安与雅致。",
     price: "￥890",
-    collector: "待结缘",
+    collector: "中国台湾黄先生",
     imageUrl: "/products/chixiajinjin.jpg",
   },
   {
@@ -352,7 +352,7 @@ export const products = [
     description:
       "这串“真言藏韵手串”，药香珠醇厚古雅，青白玉头清透灵动，银饰真言牌庄严古朴。藏韵寓意藏地禅韵萦腕，真言象征护佑安康、福慧圆满。药香沁心，藏韵入怀，是兼具藏地文化与东方禅意的随身吉物。",
     price: "￥5300",
-    collector: "中国台湾滕先生",
+    collector: "中国台湾李先生",
     imageUrl: "/products/mantra-tibetan-rhyme-bracelet.jpg",
   },
   {
