@@ -19,6 +19,14 @@ const fadeUp = {
 
 const articles = [
   {
+    id: "smoke-inhalation-therapy",
+    title: "中医烟熏吸入疗法 · 古代源流与临床考证",
+    subtitle: "从先秦熏燎到隋唐成熟",
+    description: "系统考证烟熏吸入疗法在古代文献中的记载与发展：先秦萌芽、汉代奠基、隋唐成熟，涵盖咳嗽、哮喘等呼吸系统疾病的传统方药与操作规范。",
+    href: "/science/smoke-inhalation-therapy",
+    icon: "千年疗法",
+  },
+  {
     id: "ambergris",
     title: "龙涎香 · 海底千年陈化的定香剂",
     subtitle: "白色龙涎香为何价值昂贵",
