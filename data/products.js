@@ -389,6 +389,39 @@ export const products = [
     imageUrl: "/products/yuduchanxin.jpg",
   },
   {
+    id: "yxz_15",
+    name: "轩檀映丹五十四数珠",
+    category: "medicine-incense-beads",
+    ingredients: "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "轩檀映丹五十四数珠，以温润轩檀为珠，配朱砂回纹饰件，古韵雅致。五十四珠数藏禅意，檀香清润，朱砂凝红，兼具文玩质感与静心意韵，日常佩戴温婉显气质。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/xuantanyindan.jpg",
+  },
+  {
+    id: "yxz_16",
+    name: "观心凝香手串",
+    category: "medicine-incense-beads",
+    ingredients: "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "观心凝香手串，以温润药香珠为基，缀天珠纹饰件，古雅天成。凝檀香清韵，藏观心禅意，珠圆玉润间，尽展静心雅致，为腕间添一抹温润禅意。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/guanxingninxiang.jpg",
+  },
+  {
+    id: "yxz_17",
+    name: "定慧双持手串",
+    category: "medicine-incense-beads",
+    ingredients: "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "定慧双持手串，以温润药香珠串联，搭配刻纹天珠与鎏金隔件，古雅庄严。药香凝韵，天珠藏慧，定慧双持之名，暗合禅意，于腕间传递沉稳静气，尽显禅修雅致。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/dinhuishuanchi.jpg",
+  },
+  {
     id: "yxz_11",
     name: "朱兰沁馨药禅五十四数珠",
     category: "medicine-incense-beads",
