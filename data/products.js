@@ -344,7 +344,7 @@ export const products = [
     imageUrl: "/products/cloud-lion-calm-incense-54-beads.jpg",
   },
   {
-    id: "yxz_10",
+    id: "yxz_18",
     name: "真言藏韵手串",
     category: "medicine-incense-beads",
     ingredients:
@@ -420,6 +420,18 @@ export const products = [
     price: "",
     collector: "待结缘",
     imageUrl: "/products/dinhuishuanchi.jpg",
+  },
+  {
+    id: "yxz_19",
+    name: "藏红青眸手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、降真香、甘松、青木香、朱砂、5%龙涎香制野生古稀柏科沉香(三千年以上)、合香粉、牛角、牛黄、麝香、天珠、沉香油、甘露丸、砗磲、珊瑚、藏柏、藏菖蒲。",
+    description:
+      "藏红青眸手串，选用缘融轩顶配极品龙麝药香珠。珠身糅合陈年龙涎香、麝香、牛黄、古稀柏沉香等珍贵药材，还配有西藏塔尔寺活佛加持的甘露丸，殊为难得。串身以一颗绿釉天眼天珠居中为轴，珠身纹路如法眼凝眸，目光深邃，自带威严气场；两侧搭配两颗清代传世雪巴红珠，红如朱砂，古韵十足；再以回纹银饰相隔，线条利落，细节考究。整串以沉稳药香珠为底，青眸居中，藏红点缀，配色古朴而张力十足，用料珍稀、底蕴深厚，是兼具把玩与收藏价值的上品。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/zhanqinhongmou.jpg",
   },
   {
     id: "yxz_11",
