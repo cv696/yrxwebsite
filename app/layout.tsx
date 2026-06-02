@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC, Noto_Sans_SC } from "next/font/google";
 import "./globals.css";
+import { LocaleProvider } from "../components/locale-provider";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
 
@@ -32,11 +33,13 @@ export default function RootLayout({
       <body
         className={`${headingFont.variable} ${bodyFont.variable} font-body bg-paper text-ink antialiased`}
       >
-        <SiteHeader />
-        <main className="mx-auto min-h-screen max-w-6xl px-5 pb-16 pt-6 md:px-6 md:pt-8 lg:px-8">
-          {children}
-        </main>
-        <SiteFooter />
+        <LocaleProvider>
+          <SiteHeader />
+          <main className="mx-auto min-h-screen max-w-6xl px-5 pb-16 pt-6 md:px-6 md:pt-8 lg:px-8">
+            {children}
+          </main>
+          <SiteFooter />
+        </LocaleProvider>
       </body>
     </html>
   );

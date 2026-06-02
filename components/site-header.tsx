@@ -2,22 +2,30 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { useLocale } from "./locale-provider";
 
 const navItems = [
   { label: "首页", href: "/" },
   { label: "品牌缘起", href: "/origin" },
   { label: "臻品系列", href: "/collections" },
   { label: "匠心工艺", href: "/craftsmanship" },
+  { label: "融香安心法", href: "/salon" },
   { label: "科学与养生", href: "/science" },
   { label: "善缘光影", href: "/photography" },
 ] as const;
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const { locale, toggleLocale, t } = useLocale();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => { setMounted(true); }, []);
 
   const close = () => setOpen(false);
+
+  const localeLabel = locale === "zh-CN" ? "繁" : "简";
 
   return (
     <>
@@ -66,11 +74,24 @@ export function SiteHeader() {
                 href={item.href}
                 className="group relative pb-1 transition-colors hover:text-secondary"
               >
-                <span>{item.label}</span>
+                <span>{t(item.label)}</span>
                 <span className="pointer-events-none absolute inset-x-0 -bottom-0.5 h-px origin-center scale-x-0 bg-secondary/80 transition-transform duration-200 ease-out group-hover:scale-x-100" />
               </Link>
             ))}
           </nav>
+
+          {/* Language toggle */}
+          {mounted && (
+          <div className="hidden items-center md:flex">
+            <button
+              type="button"
+              onClick={toggleLocale}
+              className="rounded-full border border-accent/40 px-3 py-1 text-xs tracking-[0.15em] text-accent/80 transition-colors hover:border-accent hover:text-accent"
+            >
+              {localeLabel}
+            </button>
+          </div>
+          )}
 
           {/* Mobile menu button */}
           <button
@@ -100,11 +121,20 @@ export function SiteHeader() {
                   onClick={close}
                   className="flex items-center justify-between rounded-lg px-2 py-3 text-[15px] tracking-[0.2em] transition-colors hover:text-secondary active:bg-secondary/10"
                 >
-                  <span>{item.label}</span>
+                  <span>{t(item.label)}</span>
                   <span className="h-px w-10 bg-secondary/60" />
                 </Link>
               ))}
             </nav>
+            <div className="mt-6 flex justify-center">
+              <button
+                type="button"
+                onClick={() => { toggleLocale(); close(); }}
+                className="rounded-full border border-accent/50 px-5 py-2 text-sm tracking-[0.2em] text-accent/80 transition-colors hover:border-accent hover:text-accent"
+              >
+                {localeLabel}体中文
+              </button>
+            </div>
           </div>
         </div>
       )}
