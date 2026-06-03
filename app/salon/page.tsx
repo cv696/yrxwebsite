@@ -104,7 +104,7 @@ export default function SalonPage() {
           </h2>
           <div className="mx-auto max-w-xl space-y-4 text-center text-sm leading-loose text-ink/70 sm:text-base">
             <p>{t("融香安心法，是缘融轩基于数十年香药研究，提炼出的一套闻香禅定体验。以四款古法花香香灸为引，透过简单的呼吸方式，让天然香材的气息带你沉入内在的安静。")}</p>
-            <p>{t("每一款香灸，由李教授以奇楠沉香、龙涎香等天然香材，遵循古法配伍入灸。你所闻到的，不是普通的花香，而是一味经过时间与匠心沉淀的安宁。")}</p>
+            <p>{t("每一款香灸，由李教授以独创的香疗配方，运用多种名贵药材，遵循古法配伍入灸。你所闻到的，不是普通的花香，而是一味经过时间与匠心沉淀的安宁。")}</p>
             <p className="pt-2 text-ink/80">{t("你只需要来，坐下来，闻。")}</p>
           </div>
         </motion.section>
