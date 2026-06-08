@@ -19,6 +19,14 @@ const fadeUp = {
 
 const articles = [
   {
+    id: "chaos-and-order",
+    title: "青烟里的乱与序",
+    subtitle: "疫情香灸狂潮下，一位香疗学者的孤行",
+    description: "从市场乱象到功效型香方的科学化之路，透视疫情期间香灸狂潮背后的灰色地带，与李国荣医生五十年孤行实践的对比。",
+    href: "/science/chaos-and-order",
+    icon: "乱与序",
+  },
+  {
     id: "smoke-inhalation-therapy",
     title: "中医烟熏吸入疗法 · 古代源流与临床考证",
     subtitle: "从先秦熏燎到隋唐成熟",
