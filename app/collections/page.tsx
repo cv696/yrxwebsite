@@ -6,11 +6,13 @@ import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { productCategories, products } from "../../data/products";
 import * as OpenCC from 'opencc-js';
+import { useLocale } from "@/components/locale-provider";
 
 // 1. 创建一个子组件来处理所有包含 searchParams 的逻辑
 function CollectionsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
+  const { t } = useLocale();
   
   const [activeCategory, setActiveCategory] = useState<string>(
     (searchParams.get('category') || productCategories[0]?.id) ?? "medicine-incense-beads",
@@ -55,13 +57,13 @@ function CollectionsContent() {
       <section className="space-y-4">
         <div>
           <h1 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
-            缘融臻品系列
+            {t("缘融臻品系列")}
           </h1>
           <p className="mt-2 text-xs font-body uppercase tracking-[0.28em] text-foreground/60">
             COLLECTIONS · PRODUCT CATALOG
           </p>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-foreground/75 sm:text-base">
-            缘融轩香舍之作品皆为稀品，我们使用收藏级别之三千年古稀柏沉香、极品绿奇楠等市面难觅的顶级天然野香药，恪守'君臣佐使'配伍制药，历经酒浸蜜炙等繁琐炮制。不假胶水之功，唯凭秘制老蜜及配方融合，在百日合香中褪尽燥气，聚敛香韵。因产量稀少，多为资深行家私藏，仅余少量供有缘人传世。
+            {t("缘融轩香舍之作品皆为稀品，我们使用收藏级别之三千年古稀柏沉香、极品绿奇楠等市面难觅的顶级天然野香药，恪守'君臣佐使'配伍制药，历经酒浸蜜炙等繁琐炮制。不假胶水之功，唯凭秘制老蜜及配方融合，在百日合香中褪尽燥气，聚敛香韵。因产量稀少，多为资深行家私藏，仅余少量供有缘人传世。")}
           </p>
         </div>
       </section>
@@ -72,7 +74,7 @@ function CollectionsContent() {
           <div className="relative">
             <input
               type="text"
-              placeholder="搜索产品名称..."
+              placeholder={t("搜索产品名称...")}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               onKeyPress={(e) => {
@@ -121,7 +123,7 @@ function CollectionsContent() {
                     : "text-foreground/65 hover:bg-secondary/10"
                     }`}
                 >
-                  {cat.label}
+                  {t(cat.label)}
                   {isActive && (
                     <span className="absolute inset-0 -z-10 rounded-full bg-accent/80 blur-[3px]" />
                   )}
@@ -136,45 +138,45 @@ function CollectionsContent() {
           <div className="space-y-8">
             <div className="text-center">
               <h1 className="font-heading text-lg tracking-[0.3em] text-accent sm:text-xl md:text-2xl">
-                缘融轩 · 草本香灸系列
+                {t("缘融轩 · 草本香灸系列")}
               </h1>
               <p className="text-xs font-body italic tracking-[0.2em] text-foreground/70 sm:text-sm">
-                —— 循古法之智，纳百草之灵 ——
+                {t("—— 循古法之智，纳百草之灵 ——")}
               </p>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-foreground/75 sm:text-base md:text-base mx-auto">
-                在繁忙的现代生活节奏中，我们往往遗忘了呼吸的质感。「缘融轩」秉持对自然的敬畏，将传统草本智慧转化为日常可感的香气疗愈。这不仅是一缕烟云，更是一次身心的归位。
+                {t("在繁忙的现代生活节奏中，我们往往遗忘了呼吸的质感。「缘融轩」秉持对自然的敬畏，将传统草本智慧转化为日常可感的香气疗愈。这不仅是一缕烟云，更是一次身心的归位。")}
               </p>
             </div>
             
             <div className="space-y-4 rounded-2xl border border-accent/15 bg-primary/90 p-6 md:p-8">
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
-                ｜大师匠心 · 独家传承｜
+                {t("｜大师匠心 · 独家传承｜")}
               </h2>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                缘融轩香灸，由资深中医主任医师李国荣教授亲自操刀配方。李教授深耕传统医学数十载，将深厚的中医药理与古法炮制技艺完美融合。
+                {t("缘融轩香灸，由资深中医主任医师李国荣教授亲自操刀配方。李教授深耕传统医学数十载，将深厚的中医药理与古法炮制技艺完美融合。")}
               </p>
               <ul className="mt-4 space-y-3 text-sm text-foreground/75 sm:text-base">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
-                  <span><strong className="text-accent/80">纯天然基料：</strong> 严选道地天然草本，拒绝任何化学添加剂、尼古丁与人工香精。</span>
+                  <span><strong className="text-accent/80">{t("纯天然基料：")}</strong> {t("严选道地天然草本，拒绝任何化学添加剂、尼古丁与人工香精。")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
-                  <span><strong className="text-accent/80">古法手工：</strong> 每一份香料皆经历繁琐的炮制与手工工序，确保药性平和，香气醇厚。</span>
+                  <span><strong className="text-accent/80">{t("古法手工：")}</strong> {t("每一份香料皆经历繁琐的炮制与手工工序，确保药性平和，香气醇厚。")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
-                  <span><strong className="text-accent/80">温导疗愈：</strong> 透过热力缓释草本精油分子，让浓郁的药香在呼吸间完成对身体的细腻调理。</span>
+                  <span><strong className="text-accent/80">{t("温导疗愈：")}</strong> {t("透过热力缓释草本精油分子，让浓郁的药香在呼吸间完成对身体的细腻调理。")}</span>
                 </li>
               </ul>
             </div>
             
             <div>
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
-                ｜三味意境 · 定向调理｜
+                {t("｜七炉香 · 七种照护｜")}
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-foreground/75 sm:text-base">
-                我们针对现代人的三种典型状态，研发了三款各具神韵的香灸产品：
+                {t("四时花香，三味理疗。从舒展绽放到安睡归位，七款香灸覆盖不同的身心状态。")}
               </p>
             </div>
           </div>
@@ -191,7 +193,7 @@ function CollectionsContent() {
                 <div className="relative aspect-[4/3] w-full">
                   <Image
                     src={product.imageUrl || "/placeholder-product.jpg"}
-                    alt={product.name}
+                    alt={t(product.name)}
                     fill
                     className="object-cover"
                     sizes="(max-width: 480px) 100vw, (max-width: 768px) 92vw, (max-width: 1024px) 80vw, (max-width: 1280px) 60vw, 45vw"
@@ -206,11 +208,11 @@ function CollectionsContent() {
                   <div className="flex items-center gap-3">
                     <span className="h-1.5 w-1.5 rounded-full bg-secondary/80" />
                     <h3 className="font-heading text-lg tracking-[0.2em] text-accent sm:text-xl">
-                      {product.name}
+                      {t(product.name)}
                     </h3>
                   </div>
                   <p className="text-[10px] font-body uppercase tracking-[0.24em] text-foreground/50 pl-4.5">
-                    ONE OF A KIND · 孤品
+                    {t("ONE OF A KIND · 孤品")}
                   </p>
                 </div>
 
@@ -218,16 +220,16 @@ function CollectionsContent() {
                   {product.description.includes('<p') ? (
                     <div dangerouslySetInnerHTML={{ __html: product.description }} />
                   ) : (
-                    <p className="leading-loose">{product.description}</p>
+                    <p className="leading-loose">{t(product.description)}</p>
                   )}
                 </div>
 
                 {product.ingredients && (
                   <div className="mt-4 flex flex-col gap-1 text-sm text-foreground/60 pl-4.5">
                     <span className="font-heading tracking-widest text-accent/80">
-                      配方
+                      {t("配方")}
                     </span>
-                    <span>{product.ingredients}</span>
+                    <span>{t(product.ingredients)}</span>
                   </div>
                 )}
 
@@ -235,17 +237,17 @@ function CollectionsContent() {
                   {product.price && product.category !== "incense-moxibustion" && (
                     <div className="flex items-center gap-1.5">
                       <span className="font-heading tracking-widest text-secondary/90">
-                        价格
+                        {t("价格")}
                       </span>
-                      <span className="text-foreground/80">{product.price}</span>
+                      <span className="text-foreground/80">{t(product.price)}</span>
                     </div>
                   )}
                   {product.collector && (
                     <div className="flex items-center gap-1.5">
                       <span className="font-heading tracking-widest text-accent/80">
-                        收藏家
+                        {t("收藏家")}
                       </span>
-                      <span className="text-foreground/80">{product.collector}</span>
+                      <span className="text-foreground/80">{t(product.collector)}</span>
                     </div>
                   )}
                 </div>
@@ -258,16 +260,16 @@ function CollectionsContent() {
           {activeCategory === "incense-moxibustion" && (
             <div className="mt-16 space-y-6 rounded-2xl border border-accent/15 bg-primary/90 p-6 md:p-8">
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
-                使用之道
+                {t("使用之道")}
               </h2>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                香灸的使用过程，是一场安静的仪式。
+                {t("香灸的使用过程，是一场安静的仪式。")}
               </p>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                将香灸点燃或加热，让草本精油随着温润的烟气缓缓释放。您可以随身携带，在感到疲惫或不适时，借由这份来自大山的药香，完成一次深度的自我清理与重启。
+                {t("将香灸点燃或加热，让草本精油随着温润的烟气缓缓释放。您可以随身携带，在感到疲惫或不适时，借由这份来自大山的药香，完成一次深度的自我清理与重启。")}
               </p>
               <p className="mt-4 text-center text-sm font-body italic tracking-[0.15em] text-accent/80">
-                缘融轩，给呼吸一份体面的温度。
+                {t("缘融轩，给呼吸一份体面的温度。")}
               </p>
             </div>
           )}
@@ -280,7 +282,7 @@ function CollectionsContent() {
                 onClick={() => setVisibleCount((v) => v + 6)}
                 className="rounded-full border border-accent/30 bg-primary/90 px-6 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
               >
-                展开更多
+                {t("展开更多")}
               </button>
             ) : (
               <button
@@ -288,7 +290,7 @@ function CollectionsContent() {
                 onClick={() => setVisibleCount(6)}
                 className="rounded-full border border-accent/30 bg-primary/90 px-6 py-2 text-[11px] font-body tracking-[0.22em] text-foreground/80 hover:bg-secondary/20"
               >
-                收起
+                {t("收起")}
               </button>
             )}
           </div>
@@ -300,8 +302,9 @@ function CollectionsContent() {
 
 // 2. 导出的主页面组件：只负责用 Suspense 包裹子组件
 export default function CollectionsPage() {
+  const { t } = useLocale();
   return (
-    <Suspense fallback={<div className="min-h-screen p-20 text-center font-body tracking-widest">正在加载臻品系列...</div>}>
+    <Suspense fallback={<div className="min-h-screen p-20 text-center font-body tracking-widest">{t("正在加载臻品系列...")}</div>}>
       <CollectionsContent />
     </Suspense>
   );

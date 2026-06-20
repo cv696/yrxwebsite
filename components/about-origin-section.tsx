@@ -2,34 +2,36 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { useLocale } from "@/components/locale-provider";
 
 export function AboutOriginSection() {
+  const { t } = useLocale();
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
     {
       src: "/deng-pufang.jpg",
-      alt: "邓朴方与李国荣医师",
-      title: "与邓朴方先生",
-      description: "前残联会荣誉主席邓朴方与李国荣医师"
+      alt: t("邓朴方与李国荣医师"),
+      title: t("与邓朴方先生"),
+      description: t("前残联会荣誉主席邓朴方与李国荣医师")
     },
     {
       src: "/duoji-cairang.jpg",
-      alt: "多吉才让与李国荣医师",
-      title: "与多吉才让先生",
-      description: "前民政部长多吉才让与李国荣医师"
+      alt: t("多吉才让与李国荣医师"),
+      title: t("与多吉才让先生"),
+      description: t("前民政部长多吉才让与李国荣医师")
     },
     {
       src: "/tang-xiaoquan.jpg",
-      alt: "汤小泉与李国荣医师",
-      title: "与汤小泉女士",
-      description: "前残联会副主席汤小泉与李国荣医师"
+      alt: t("汤小泉与李国荣医师"),
+      title: t("与汤小泉女士"),
+      description: t("前残联会副主席汤小泉与李国荣医师")
     },
     {
       src: "/lama-yuan-dan.jpg",
-      alt: "元旦坚赞仁波切与李国荣医师",
-      title: "与元旦坚赞仁波切",
-      description: "元旦坚赞仁波切与李国荣医师"
+      alt: t("元旦坚赞仁波切与李国荣医师"),
+      title: t("与元旦坚赞仁波切"),
+      description: t("元旦坚赞仁波切与李国荣医师")
     }
   ];
   
@@ -57,15 +59,14 @@ export function AboutOriginSection() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
-              缘起与初心
+              {t("缘起与初心")}
             </h2>
             <p className="mt-2 text-sm font-body uppercase tracking-[0.28em] text-foreground/60 sm:text-xs">
               ORIGIN STORY
             </p>
           </div>
           <p className="max-w-md text-sm leading-relaxed text-foreground/70 sm:text-base">
-            缘融轩·药香珠的诞生，源自一位中医师、一位仁波切与几枚尘封百年的
-            擦擦模具，在时代的缝隙中完成的相遇。
+            {t("缘融轩·药香珠的诞生，源自一位中医师、一位仁波切与几枚尘封百年的擦擦模具，在时代的缝隙中完成的相遇。")}
           </p>
         </div>
       </div>
@@ -104,7 +105,7 @@ export function AboutOriginSection() {
               <button
                 onClick={prevSlide}
                 className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/30 p-2 text-white hover:bg-black/50 transition-colors"
-                aria-label="上一张"
+                aria-label={t("上一张")}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -113,7 +114,7 @@ export function AboutOriginSection() {
               <button
                 onClick={nextSlide}
                 className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/30 p-2 text-white hover:bg-black/50 transition-colors"
-                aria-label="下一张"
+                aria-label={t("下一张")}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -126,7 +127,7 @@ export function AboutOriginSection() {
                     key={index}
                     onClick={() => setCurrentSlide(index)}
                     className={`h-1.5 w-1.5 rounded-full transition-all ${index === currentSlide ? 'bg-white w-6' : 'bg-white/50'}`}
-                    aria-label={`切换到第${index + 1}张图片`}
+                    aria-label={t("切换到第") + (index + 1) + t("张图片")}
                   />
                 ))}
               </div>
@@ -138,11 +139,11 @@ export function AboutOriginSection() {
               FOUNDER PROFILE
             </p>
             <div className="space-y-2 text-sm leading-relaxed text-foreground/80 sm:text-base">
-              <p>李国荣医师 是一位在医学、传统文化与艺术领域均有深厚造诣的大家。</p>
-              <p><span className="font-bold">医学创新者</span> ：研发的瘫痪治疗方案，荣获国家发明专利及第29届日内瓦国际发明博览会银奖。</p>
-              <p><span className="font-bold">道医传承人</span> ：潜心挖掘传统道医丹药，收集整理上百种古代秘方及稀有香药材。</p>
-              <p><span className="font-bold">资深收藏家</span> ：经年累月珍藏古董文物，其藏品体系完整、数量庞大，可比肩专业博物馆。</p>
-              <p><span className="font-bold">人文摄影家</span> ：镜头始终对准基层，以纪实手法捕捉普通人的真实瞬间，作品充满人文关怀。</p>
+              <p>{t("李国荣医师 是一位在医学、传统文化与艺术领域均有深厚造诣的大家。")}</p>
+              <p><span className="font-bold">{t("医学创新者")}</span>{t(" ：研发的瘫痪治疗方案，荣获国家发明专利及第29届日内瓦国际发明博览会银奖。")}</p>
+              <p><span className="font-bold">{t("道医传承人")}</span>{t(" ：潜心挖掘传统道医丹药，收集整理上百种古代秘方及稀有香药材。")}</p>
+              <p><span className="font-bold">{t("资深收藏家")}</span>{t(" ：经年累月珍藏古董文物，其藏品体系完整、数量庞大，可比肩专业博物馆。")}</p>
+              <p><span className="font-bold">{t("人文摄影家")}</span>{t(" ：镜头始终对准基层，以纪实手法捕捉普通人的真实瞬间，作品充满人文关怀。")}</p>
             </div>
           </div>
 
@@ -151,7 +152,7 @@ export function AboutOriginSection() {
               FOUNDER'S WORDS
             </p>
             <p className="font-heading text-sm leading-relaxed tracking-[0.24em] text-accent sm:text-base">
-              "元旦坚赞仁波切赠我以缘，历史赠我以模，而我愿以『药香佛印』延续这段千年对话。"
+              {t("元旦坚赞仁波切赠我以缘，历史赠我以模，而我愿以『药香佛印』延续这段千年对话。")}
             </p>
           </div>
         </div>
@@ -159,22 +160,22 @@ export function AboutOriginSection() {
         <div className="space-y-6">
           <div className="space-y-3">
             <h3 className="font-heading text-lg tracking-[0.26em] text-accent sm:text-xl">
-              缘融轩香舍：于呼吸间，对话千载风雅
+              {t("缘融轩香舍：于呼吸间，对话千载风雅")}
             </h3>
           </div>
 
           <div className="space-y-4 text-sm leading-relaxed text-foreground/75 sm:text-base">
             <p>
-              有些缘分，穿越时光而来。2017年，李国荣医师于塔尔寺偶遇元旦坚赞仁波切出关，获赠几枚带着闭关清寂的泥擦擦。这一递，接通了与古老佛艺的善缘，也开启了缘融轩"药香佛印"的千年因缘。
+              {t("有些缘分，穿越时光而来。2017年，李国荣医师于塔尔寺偶遇元旦坚赞仁波切出关，获赠几枚带着闭关清寂的泥擦擦。这一递，接通了与古老佛艺的善缘，也开启了缘融轩\"药香佛印\"的千年因缘。")}
             </p>
             <p>
-              身为中医丹药大家与古董藏家，李医师不忍明清古模蒙尘，亦不愿香疗智慧流失。他以《四部医典》《明清香药秘方》《本草纲目》为引，不取泥、不涉土，而以绿奇楠沉香、三千年古柏沉香、顶级藏红花及天然麝香等数十种稀世药材为体，以甘露丸为魂，经百日合香、繁复炮制，创研出兼具药理与禅韵的"药香佛印"药擦擦。
+              {t("身为中医丹药大家与古董藏家，李医师不忍明清古模蒙尘，亦不愿香疗智慧流失。他以《四部医典》《明清香药秘方》《本草纲目》为引，不取泥、不涉土，而以绿奇楠沉香、三千年古柏沉香、顶级藏红花及天然麝香等数十种稀世药材为体，以甘露丸为魂，经百日合香、繁复炮制，创研出兼具药理与禅韵的\"药香佛印\"药擦擦。")}
             </p>
             <p>
-              此心未止。缘融轩继而推出"一珠一名"药香珠手串，每颗皆天然手作，于佩戴间调畅气机、安神护心。更以道医为根基，深掘佛道两家"香为信使"之文化源流，所制药香牌融炼丹传统与辛香走窜之性于一体，让香药化为身心道场，备受高僧与道长认可。近期亦开发香灸系列，以纯中药吸入法，予人"呼吸的调养"。
+              {t("此心未止。缘融轩继而推出\"一珠一名\"药香珠手串，每颗皆天然手作，于佩戴间调畅气机、安神护心。更以道医为根基，深掘佛道两家\"香为信使\"之文化源流，所制药香牌融炼丹传统与辛香走窜之性于一体，让香药化为身心道场，备受高僧与道长认可。近期亦开发香灸系列，以纯中药吸入法，予人\"呼吸的调养\"。")}
             </p>
             <p>
-              从一方药擦至多元香藏，缘融轩恪守药性完整、拒绝科技与速成。未来，我们仍将以稀世之材雕琢传世之香，让古老香药文化，在当代人的呼吸间，完成最美重塑。
+              {t("从一方药擦至多元香藏，缘融轩恪守药性完整、拒绝科技与速成。未来，我们仍将以稀世之材雕琢传世之香，让古老香药文化，在当代人的呼吸间，完成最美重塑。")}
             </p>
           </div>
         </div>

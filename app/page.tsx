@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Sparkles, Feather, Leaf, HeartHandshake, Mountain, ArrowRight } from "lucide-react";
 import { useEffect } from "react";
+import { useLocale } from "@/components/locale-provider";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -18,40 +19,42 @@ const fadeUp = {
   }),
 };
 
-const fiveValues = [
-  {
-    title: "圣缘",
-    subtitle: "Sacred Fate",
-    description: "源自元旦仁波切与擦擦模具的圣物缘起，将修行愿力融入一珠一粒。",
-    icon: Sparkles,
-  },
-  {
-    title: "古艺",
-    subtitle: "Ancient Art",
-    description: "以明清时期擦擦模具为蓝本，考古复原失传工艺，重现宫廷香道仪轨。",
-    icon: Feather,
-  },
-  {
-    title: "香疗",
-    subtitle: "Incense Therapy",
-    description: "「以药为泥」，以珍稀药材代替泥土，让每一缕香烟承载草本养生智慧。",
-    icon: Leaf,
-  },
-  {
-    title: "匠心",
-    subtitle: "Craftsmanship",
-    description: "以老蜂蜜手工和合，不加化学胶黏，一捻一塑皆由匠人指尖完成。",
-    icon: HeartHandshake,
-  },
-  {
-    title: "使命",
-    subtitle: "Mission",
-    description: "让雪域高原的圣物文化，走入当代日常，成为连接古老信仰与现代生活的桥梁。",
-    icon: Mountain,
-  },
-] as const;
-
 export default function Home() {
+  const { t } = useLocale();
+
+  const fiveValues = [
+    {
+      title: t("圣缘"),
+      subtitle: "Sacred Fate",
+      description: t("源自元旦仁波切与擦擦模具的圣物缘起，将修行愿力融入一珠一粒。"),
+      icon: Sparkles,
+    },
+    {
+      title: t("古艺"),
+      subtitle: "Ancient Art",
+      description: t("以明清时期擦擦模具为蓝本，考古复原失传工艺，重现宫廷香道仪轨。"),
+      icon: Feather,
+    },
+    {
+      title: t("香疗"),
+      subtitle: "Incense Therapy",
+      description: t("「以药为泥」，以珍稀药材代替泥土，让每一缕香烟承载草本养生智慧。"),
+      icon: Leaf,
+    },
+    {
+      title: t("匠心"),
+      subtitle: "Craftsmanship",
+      description: t("以老蜂蜜手工和合，不加化学胶黏，一捻一塑皆由匠人指尖完成。"),
+      icon: HeartHandshake,
+    },
+    {
+      title: t("使命"),
+      subtitle: "Mission",
+      description: t("让雪域高原的圣物文化，走入当代日常，成为连接古老信仰与现代生活的桥梁。"),
+      icon: Mountain,
+    },
+  ] as const;
+
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.href = '/collections';
@@ -79,23 +82,23 @@ export default function Home() {
               <div className="flex h-52 items-center justify-center px-4 py-6 md:h-64 md:px-6">
                 <img 
                   src="/yuanrongxuan-final.svg" 
-                  alt="缘融轩香舍" 
+                  alt={t("缘融轩香舍")} 
                   className="h-full w-auto object-contain"
                 />
               </div>
 
               <div className="max-w-xs space-y-5 text-ash/85 md:max-w-sm">
                 <p className="text-[15px] font-body tracking-[0.2em] text-ash/80 md:text-[16px]">
-                  集稀世珍材，承佛道香药正统
+                  {t("集稀世珍材，承佛道香药正统")}
                 </p>
                 <p className="text-sm leading-loose text-ash/75 sm:text-base">
-                  缘融轩集稀世珍材，承佛道香药正统。以顶级本草配伍甘露愿力，雕琢收藏级药香传世。于呼吸间调和身心，延续古今风雅。
+                  {t("缘融轩集稀世珍材，承佛道香药正统。以顶级本草配伍甘露愿力，雕琢收藏级药香传世。于呼吸间调和身心，延续古今风雅。")}
                 </p>
               </div>
             </div>
 
             <Link href="/collections" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full border border-ash/70 bg-black/10 px-7 py-2.5 text-sm font-body tracking-[0.18em] text-ash/90 backdrop-blur-sm transition-colors hover:border-cinnabar/90 hover:text-cinnabar sm:text-sm">
-              探索臻品系列
+              {t("探索臻品系列")}
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
@@ -107,15 +110,14 @@ export default function Home() {
           <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="font-heading text-xl tracking-[0.3em] text-accent sm:text-2xl">
-                五维价值
+                {t("五维价值")}
               </h2>
               <p className="mt-2 text-sm font-body uppercase tracking-[0.28em] text-foreground/60 sm:text-xs">
                 FIVE DIMENSIONS OF VALUE
               </p>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-foreground/70 sm:text-base">
-              缘融轩·药香珠并非单一产品，而是跨越信仰、工艺、疗愈与文化使命的
-              立体载体，在日常供奉与佩戴之中，完成身心与时间的缓慢对话。
+              {t("缘融轩·药香珠并非单一产品，而是跨越信仰、工艺、疗愈与文化使命的立体载体，在日常供奉与佩戴之中，完成身心与时间的缓慢对话。")}
             </p>
           </div>
         </div>
@@ -155,11 +157,10 @@ export default function Home() {
       <section className="space-y-6">
         <div>
           <h2 className="font-heading text-sm tracking-[0.26em] text-accent sm:text-base">
-            一条缓慢的体验路径
+            {t("一条缓慢的体验路径")}
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-foreground/70 sm:text-base">
-            若你愿意，可以循着"缘起—匠心—科学"的顺序，缓慢走完一遍缘融轩：
-            先理解故事，再触摸工艺与药材，最后以科学语言回望自身身心变化。
+            {t("若你愿意，可以循着\u201c缘起—匠心—科学\u201d的顺序，缓慢走完一遍缘融轩：先理解故事，再触摸工艺与药材，最后以科学语言回望自身身心变化。")}
           </p>
         </div>
 
@@ -173,11 +174,10 @@ export default function Home() {
                 STEP 01
               </p>
               <h3 className="font-heading text-sm tracking-[0.26em] text-accent">
-                品牌缘起
+                {t("品牌缘起")}
               </h3>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                从塔尔寺的擦擦，到明清古模与"以药为泥"的发心，理解一粒药香珠
-                背后所承载的故事与初心。
+                {t("从塔尔寺的擦擦，到明清古模与\u201c以药为泥\u201d的发心，理解一粒药香珠背后所承载的故事与初心。")}
               </p>
             </div>
             <p className="mt-4 text-[11px] font-body uppercase tracking-[0.22em] text-accent/80">
@@ -194,11 +194,10 @@ export default function Home() {
                 STEP 02
               </p>
               <h3 className="font-heading text-sm tracking-[0.26em] text-accent">
-                匠心工艺
+                {t("匠心工艺")}
               </h3>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                深入了解缘融轩的手工制香工艺、选药标准与炮制方法，触摸
-                每一粒药香珠背后的时间与匠心。
+                {t("深入了解缘融轩的手工制香工艺、选药标准与炮制方法，触摸每一粒药香珠背后的时间与匠心。")}
               </p>
             </div>
             <p className="mt-4 text-[11px] font-body uppercase tracking-[0.22em] text-accent/80">
@@ -215,11 +214,10 @@ export default function Home() {
                 STEP 03
               </p>
               <h3 className="font-heading text-sm tracking-[0.26em] text-accent">
-                科学视角
+                {t("科学视角")}
               </h3>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                以现代科学语言解读传统香药的身心调理作用，
-                理解药香如何通过呼吸与皮肤，与现代生活达成和解。
+                {t("以现代科学语言解读传统香药的身心调理作用，理解药香如何通过呼吸与皮肤，与现代生活达成和解。")}
               </p>
             </div>
             <p className="mt-4 text-[11px] font-body uppercase tracking-[0.22em] text-accent/80">

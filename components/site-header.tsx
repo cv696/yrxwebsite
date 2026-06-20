@@ -23,6 +23,11 @@ export function SiteHeader() {
 
   useEffect(() => { setMounted(true); }, []);
 
+  // Keep <html lang> in sync with the selected locale (zh-CN / zh-TW)
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   const close = () => setOpen(false);
 
   const localeLabel = locale === "zh-CN" ? "繁" : "简";
