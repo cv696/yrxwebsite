@@ -156,6 +156,46 @@ export const products = [
   },
 
   {
+    id: "incense-moxibustion-04",
+    name: "腊梅暗香灸",
+    category: "incense-moxibustion",
+    ingredients: "腊梅花、玫瑰花、甘松、沉香、甘草、玄参",
+    description:
+      "<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>不寐之根在「阳不入阴」——阴分不足则海浅难纳，气机不通则路塞难归。腊梅暗香灸双管齐下：壮水以深其海，散结以通其路。不动不伐，只修桥补路，等阳气自己落进去。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>腊梅花为君，</span>辛凉清透，散胸中烦热——百花皆寂而此花独放，其性自静，以静制躁。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玄参、玫瑰花为臣，</span>玄参甘苦咸寒入肾，壮水滋阴——海够深，太阳自然沉得下去；玫瑰花甘苦温，柔肝安魂——肝藏血、血舍魂，肝柔则魂归。一补阴根，一安肝魂，标本同步。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘松、沉香为佐，</span>甘松辛甘温，开郁醒脾——胃不和则卧不安，中焦一通，心肾得交；沉香辛苦微温，纳气归肾——将散开浊气与浮越心神一并收纳入丹田。一开一纳，完成气机「后半程」的下沉与通达。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘草为使，</span>培土伏火——如细土闷火，令虚火静谧归藏，蓄养明日之生机。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 入睡困难（躺下逾半时不寐）、脑中思绪纷飞停不下来</p><p class='leading-relaxed mb-2'>· 心烦燥热、手足心热、阴虚阳浮</p><p class='leading-relaxed mb-2'>· 睡前反复回思日间之事、压抑愤怒、肝郁化火</p><p class='leading-relaxed mb-2'>· 脘腹胀满、晚餐后不适延续至睡前、胃不和而卧不安</p><p class='leading-relaxed mb-2'>· 口干不欲饮、面时潮红、易醒难复眠</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>睡前半小时燃用。平卧，腹式呼吸引气下沉。不求速睡，但令心神有归。香尽之时，睡意往往不请自来。</p>",
+    price: "¥4000",
+    imageUrl: "/products/an_xiang_yun.jpg",
+  },
+  {
+    id: "incense-moxibustion-05",
+    name: "白玉兰香灸",
+    category: "incense-moxibustion",
+    ingredients: "白玉兰、茉莉花、菊花、甘草、陈皮、甘松",
+    description:
+      "<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>此证非肝郁，而是气机尚未「开机」。冬藏未尽，春升受阻——胸中憋闷、欲叹而不得、对万物缺乏兴致。白玉兰香灸以「宣肺开窍，唤醒气机」为法，不及攻伐，只用春风之力，徐徐开窗。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>白玉兰为君，</span>辛温芳香，宣通上焦郁闭——先开后叶之花性，正合此方「先打开再说」之思路。</p><p class='leading-relaxed mb-3'><span class='text-accent'>茉莉花、菊花为臣，</span>茉莉花辛甘温入肝脾，如晨钟轻叩，唤醒肝之疏泄；菊花微寒反佐，清散肝经郁热，引药力上达头目。一醒一清，肝气启动而不上火。</p><p class='leading-relaxed mb-3'><span class='text-accent'>陈皮、甘松为佐，</span>陈皮辛苦温，理气健脾，将宣散之气导入中焦；甘松辛甘温，醒脾开郁，把被肝克住的脾胃解放出来。一理一醒，中焦得通，浊气方有出路。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘草为使，</span>甘缓收全方，培土生金，使宣散有度、不伤正气。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 胸中憋闷、总想深呼吸却吸不到底、不自觉叹气</p><p class='leading-relaxed mb-2'>· 情绪打不开、缺乏动力、春天万物生发自身却无生机</p><p class='leading-relaxed mb-2'>· 眉头紧锁、目涩头昏、郁闭日久生热</p><p class='leading-relaxed mb-2'>· 不思饮食、食后胀满、口中乏味</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>晨起或午后燃用。闭目深长呼吸，以鼻摄香，由肺布散。一炉香毕，当觉胸中渐次通畅，似春日推窗。</p>",
+    price: "¥2200",
+    imageUrl: "/products/yu_lang_qing.jpg",
+  },
+  {
+    id: "incense-moxibustion-06",
+    name: "秋韵桂香灸",
+    category: "incense-moxibustion",
+    ingredients: "金桂花、玫瑰花、薰衣草、檀香、沉香、玉兰花",
+    description:
+      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>秋气收敛，收之太过即成郁。悲秋非矫情——气机内收过度，胸中窒塞，悲从中来。更兼秋凉伤中，脾寒不运则清气不升、浊气不降，整个人「既收不拢、又散不开」。桂香灸以「暖脾醒中，升清降浊」为法，是秋日气机失调的对证之方。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>金桂花为君，</span>辛温芳香，暖脾醒胃——如火柴划入冷炉灶，非添柴，是引燃内在火种。土生金，中阳一振则肺气自充，悲忧自解。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为臣，</span>柔肝解郁——肝木克脾土，中焦一暖则寒气散，肝郁失其所附而自消。桂与玫，一暖一松，解肝脾之「死结」。</p><p class='leading-relaxed mb-3'><span class='text-accent'>薰衣草、檀香、沉香为佐，</span>薰衣草辛凉入心，清心除烦，反佐诸温药使全方温而不燥；檀香辛温升清，接桂花之清气入心肺；沉香辛苦降浊，引浊气沉归丹田。三味合力，寒热制衡、升降相因，三焦气机循环复始。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玉兰花为使，</span>辛温引经，携诸香之气贯通清阳之府。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 秋季脘腹冷胀、食欲减退、食入即饱</p><p class='leading-relaxed mb-2'>· 情绪低落、善悲欲泣、胸闷气短（悲忧伤肺）</p><p class='leading-relaxed mb-2'>· 头昏不清、上热下寒（口干而足凉，升降失常）</p><p class='leading-relaxed mb-2'>· 思虑过度、心绪纷乱、难以专注</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>午后或黄昏燃用，秋雨萧瑟时尤宜。腹式呼吸，引暖意由胃腑升起。清气一升，头目自爽。上午燃用暖脾升阳，晚间以玫瑰柔肝安神，可依时辰轮用。</p>`,
+    price: "",
+    imageUrl: "/products/qiuyunguixiang.jpg",
+  },
+  {
+    id: "incense-moxibustion-07",
+    name: "幽庭玫瑰灸",
+    category: "incense-moxibustion",
+    ingredients: "玫瑰花、白玉兰、檀香、沉香、鸢尾根、零陵香",
+    description:
+      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>肝为刚脏，宜柔不宜伐。柴胡之属如斧劈，玫瑰之流如手抚。长期压抑困顿之人，其肝非「堵」而是「僵」——刚药相激，反成拔河。幽庭玫瑰灸以「柔肝解郁、三焦贯通」为法，走疏→升→降→化四步气化路径，刚柔相济，面面俱到。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为君，</span>甘温柔润，柔肝醒胃、行气和血——肝苦急，急食甘以缓之。非疏非泄，以甘缓抚平刚脏之性。</p><p class='leading-relaxed mb-3'><span class='text-accent'>白玉兰为臣，</span>辛温走窜，宣通胸中陈腐之气——玫瑰向内柔肝，玉兰向外宣通，一敛一宣，开阖之配。</p><p class='leading-relaxed mb-3'><span class='text-accent'>檀香、沉香、鸢尾根为佐，</span>檀香辛温升清入心宁神，沉香辛苦降浊纳气归肾，一升一降构建气机纵轴；鸢尾根苦辛平，活血通络——气滞日久必及血分，防「久行气则伤血」之弊。三味合力，三焦贯通，气血同治。</p><p class='leading-relaxed mb-3'><span class='text-accent'>零陵香为使，</span>芳香辟秽、透达引经——借其透发力，引诸香气由肺入脉、由脉入络，抵达细微气络。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 长期压抑、易怒、胸胁胀闷、善太息</p><p class='leading-relaxed mb-2'>· 思绪纷连、气浮于上、入睡困难（因焦虑而非阴虚）</p><p class='leading-relaxed mb-2'>· 面色暗沉、胸闷偶有刺痛（气滞及血之兆）</p><p class='leading-relaxed mb-2'>· 头重昏蒙、清浊不分、浊气不降</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>情志不舒或胸胁胀闷时燃用，深长呼吸5–10分钟，感受胸中「松开感」。香灸经鼻入肺，绕开脾胃运化，直接作用气分。中病即止——气机已畅即停，勿无节制连续熏嗅。每周2–3次为宜。</p>`,
+    price: "",
+    imageUrl: "/products/youtingmeigui.jpg",
+  },
+  {
     id: "incense-moxibustion-01",
     name: "凌霄觉灸",
     category: "incense-moxibustion",
@@ -184,46 +224,6 @@ export const products = [
       "缓解鼻塞流涕、打喷嚏、嗅觉减退等不适,有效减轻鼻腔黏膜充血水肿,舒缓鼻部干痒不适,抑制过敏应激反应,温和修护鼻腔屏障,从根源调理体质,降低鼻炎反复几率,守护鼻腔呼吸舒畅。",
     price: "¥2200",
     imageUrl: "/products/qing_feng_xi.jpg",
-  },
-  {
-    id: "incense-moxibustion-04",
-    name: "腊梅暗香灸",
-    category: "incense-moxibustion",
-    ingredients: "",
-    description:
-      "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>-- 琉璃世界,红炉暗香 --</p><p class='text-center mb-2'>琉璃世界白雪红梅,脂香凝雪不染尘。</p><p class='text-center text-sm text-foreground/60 mb-6'>--《红楼梦》第五十回</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》第五十回,琉璃世界白雪皑皑,栊翠庵寒梅如胭脂映雪。众人踏雪寻芳,妙玉撷天地清雪烹茶。曹公一支妙笔,写尽中式文人极致冬日雅韵 -- 皑皑白雪、傲骨寒梅、清雅幽芳。</p><p class='leading-relaxed mb-4'>缘融轩以此传世意境为灵感,甄选寒冬腊月凌霜盛放上品腊梅,凝撷冰雪淬炼的凛寒清韵,糅合千年奇楠温润厚蕴,以草本珍萃为引,贯通全香气韵,龙涎安魂定魄、稳固香魂。</p><p class='leading-relaxed mb-6'>三载窖藏陈化,褪尽凡尘燥气,只余一缕绵长幽远腊梅寒香,一呼一吸间,复刻红楼雪里那缕千古动人暗香。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君:</span>腊梅傲雪・清冽主香</p><p class='mb-2'><span class='text-accent/80'>臣:</span>龙涎凝韵・定香锁魂</p><p class='mb-2'><span class='text-accent/80'>佐:</span>千年奇楠・温润沉厚</p><p class='mb-6'><span class='text-accent/80'>使:</span>珍萃草本・白檀、藏红花引和行气</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵层次】</p><p class='mb-2'><span class='text-accent/80'>初燃:</span>腊梅清冽绝尘,如雪岭初绽第一缕幽芳,涤荡世间尘嚣</p><p class='mb-2'><span class='text-accent/80'>中调:</span>奇楠沉香缓缓漫溢,绵长悠远,似暮色远山,静谧安然</p><p class='mb-6'><span class='text-accent/80'>尾韵:</span>龙涎稳韵收束,余韵缠绵不绝,萦绕襟袖,久久不散</p><p class='leading-relaxed mb-6'>舒缓情绪、安神助眠、行气解郁,抗菌消炎与修复作用。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱内敛雅韵、心性沉静、追求东方雅致慢生活之人</p>",
-    price: "¥4000",
-    imageUrl: "/products/an_xiang_yun.jpg",
-  },
-  {
-    id: "incense-moxibustion-05",
-    name: "白玉兰香灸",
-    category: "incense-moxibustion",
-    ingredients: "",
-    description:
-      "<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>-- 春风入梦,玉兰满庭 --</p><p class='text-center mb-2'>东风袅袅泛崇光,香雾空蒙月转廊。</p><p class='text-center text-sm text-foreground/60 mb-6'>-- 苏轼海棠诗,红楼大观园春韵化用</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>《红楼梦》大观园春日盛景,秋爽斋雅致疏朗,潇湘馆竹影清幽,怡红院雕梁绘彩,遍植玉兰、海棠、牡丹,暗合玉堂富贵吉祥意韵。满园春风婉转,兰馨桂馥,清雅不妖,温润不俗,写尽世家女子温婉空灵的东方诗意。</p><p class='leading-relaxed mb-4'>缘融轩以此春日雅境为灵感,甄选春分初绽含苞白玉兰,凝撷阳春清逸高洁气韵,糅合奇楠沉韵沉稳内敛,柔婉花香调和气韵流转,珍萃草木相辅相生。</p><p class='leading-relaxed mb-6'>三韵交融、古法和合,褪去浮艳浮躁,只余一缕清雅温润玉兰幽香,一呼一吸间,梦回大观园烟雨春风,静赏红楼半生温柔诗意。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使・古方合香】</p><p class='mb-2'><span class='text-accent/80'>君:</span>白玉兰・清雅主韵</p><p class='mb-2'><span class='text-accent/80'>臣:</span>奇楠沉香・镇香稳序</p><p class='mb-2'><span class='text-accent/80'>佐:</span>玫瑰、檀香・柔润调和</p><p class='mb-6'><span class='text-accent/80'>使:</span>珍萃草本・引脉行气、贯通全香</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃:</span>玉兰清逸绝尘,如春风拂槛,晨露含芳,干净通透不染尘俗</p><p class='mb-2'><span class='text-accent/80'>中调:</span>玫瑰温婉与沉香沉雅交织,刚柔相济,似钗黛风骨,端庄灵动相得益彰</p><p class='mb-6'><span class='text-accent/80'>尾韵:</span>幽韵绵长内敛,香魂沉静不散,萦绕襟袖,恰似大观园缱绻春梦,温柔绵长</p><p class='leading-relaxed mb-6'>舒缓情绪、宁神抗焦虑、行气解郁、疏肝理气,缓解胸闷腹胀。开窍醒神、缓解头昏。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p>偏爱清雅花香、心性温婉通透、向往诗意雅致东方生活之人</p>",
-    price: "¥2200",
-    imageUrl: "/products/yu_lang_qing.jpg",
-  },
-  {
-    id: "incense-moxibustion-06",
-    name: "秋韵桂香灸",
-    category: "incense-moxibustion",
-    ingredients: "",
-    description:
-      `<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>--金风桂影,天香入秋,一炉安和--</p><p class='text-center mb-2'>何须浅碧深红色,自是花中第一流。</p><p class='text-center text-sm text-foreground/60 mb-6'>--李清照《鹧鸪天·桂花》</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>金风送爽,桂子飘香,月移桂影,秋韵自成。大观园中秋夜,桂树亭亭,天香漫院,笛声与桂香相融,清辉与幽芳相映,写尽东方秋日里最温润、最安宁的雅韵。缘融轩取中秋桂华之诗意,凝撷金桂清润甜雅之气,合古法草本珍萃,以古方合香之道,炼就一炉<strong>秋韵·桂香</strong>,封存秋日清宁,温养身心,调和情志。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使·古方合香】</p><p class='mb-2'><span class='text-accent/80'>君:</span>金桂清雅·甜润主香,清透不浊,温而不燥</p><p class='mb-2'><span class='text-accent/80'>臣:</span>玫瑰柔婉、檀香沉雅、沉香温煦,行气和中,稳序定香</p><p class='mb-2'><span class='text-accent/80'>佐:</span>薰衣草宁心、龙脑开窍,镇静安神,通透清灵</p><p class='mb-6'><span class='text-accent/80'>使:</span>龙涎香定香增效,延香持效,温润收魂,贯通全方</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃:</span>金桂清甜漫溢,如月下桂风拂面,清润通透,涤烦解郁</p><p class='mb-2'><span class='text-accent/80'>中调:</span>沉香、檀香沉稳铺展,柔婉与醇厚交织,行气和中,安稳脾胃</p><p class='mb-6'><span class='text-accent/80'>尾韵:</span>龙涎凝香收束,幽韵绵长,安神定志,余韵绕襟,久久不散</p><p class='font-heading text-accent tracking-widest mb-3'>【健康调理·本草温养】</p><p class='leading-relaxed mb-4'>秋韵桂香灸循"主香定效、辅香增效"古法制香,温通经络、调和气血、安神定志,综合调理身心:</p><p class='mb-6'>舒缓情绪、缓解焦虑、镇定安神、助益睡眠、净化心灵、提神开窍、适合高压、失眠或需要情绪平衡时使用、可营造温暖宁静的氛围。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p class='leading-relaxed mb-4'>情志不畅、焦虑易躁、睡眠欠佳、脾胃虚寒、经期不适、喜清雅秋香、追求身心安和之人。</p><p class='leading-relaxed mb-2'>一炉秋韵桂香,风清月朗,香暖秋安。</p><p class='leading-relaxed'>静伴朝夕,温养身心,归复中式秋日里的从容与安宁。</p>`,
-    price: "",
-    imageUrl: "/products/qiuyunguixiang.jpg",
-  },
-  {
-    id: "incense-moxibustion-07",
-    name: "幽庭玫瑰灸",
-    category: "incense-moxibustion",
-    ingredients: "",
-    description:
-      `<p class='text-center font-body italic tracking-[0.15em] text-accent/80 mb-4'>--庭前玫瑰绽,暗香润心宁,一灸愈芳华--</p><p class='text-center mb-2'>等闲识得东风面,万紫千红总是春。</p><p class='text-center text-sm text-foreground/60 mb-6'>--朱熹《春日》,化用红楼幽庭春韵</p><p class='font-heading text-accent tracking-widest mb-3'>【产品缘起】</p><p class='leading-relaxed mb-4'>红楼幽庭深处,蔷薇缀径,玫瑰凝香,风过庭前,暗香浮动,藏尽东方女子的温婉与灵动。缘融轩撷取春日幽庭盛放的上品玫瑰,凝撷其柔婉芬芳之气,糅合千年草本珍萃,恪守古法"君臣佐使"合香之道,历经繁琐炮制与窖藏陈化,褪尽浮燥,炼就一炉「幽庭·玫瑰」。以花香为引,以本草为养,让每一缕香气,都成为温润身心、舒缓情志的东方疗愈之息。</p><p class='font-heading text-accent tracking-widest mb-3'>【君臣佐使·古方合香】</p><p class='mb-2'><span class='text-accent/80'>君:</span>上品玫瑰·柔婉主香,清甜不腻,温润养气</p><p class='mb-2'><span class='text-accent/80'>臣:</span>檀香沉雅、乳香清透,行气活血,温通经络</p><p class='mb-2'><span class='text-accent/80'>佐:</span>沉香宁心、龙涎香定魂,安神助眠,稳序留香</p><p class='mb-6'><span class='text-accent/80'>使:</span>龙脑清灵,开窍醒神,引药入脉,贯通全香</p><p class='font-heading text-accent tracking-widest mb-3'>【香韵意境】</p><p class='mb-2'><span class='text-accent/80'>初燃:</span>玫瑰清甜裹挟着淡淡花香,如幽庭春风拂面,柔婉细腻,瞬间抚平心绪浮躁</p><p class='mb-2'><span class='text-accent/80'>中调:</span>檀香、乳香缓缓漫溢,沉雅与清透交织,温通气血,舒缓身心不适感</p><p class='mb-6'><span class='text-accent/80'>尾韵:</span>沉香、龙涎香凝香收束,幽韵绵长,宁心安神,余香萦绕襟袖,温柔持久</p><p class='font-heading text-accent tracking-widest mb-3'>【健康调理·本草温养】</p><p class='leading-relaxed mb-4'>幽庭玫瑰灸以古法合香为基,以本草珍萃为效,兼顾香气疗愈与身心调理,多重滋养,温润安康:</p><p class='mb-4'>疏肝解郁、调节情绪,缓解焦虑、抑郁及经前烦躁、行气止痛,改善痛经、月经不块及宫寒。</p><p class='mb-6'>养颜润肤、气血循环,淡化色斑,提升肌肤光泽、宁心安神,缓解更年期失眠或压力性失眠、改善头目昏沉及情志不畅。</p><p class='font-heading text-accent tracking-widest mb-2'>【适合人群】</p><p class='leading-relaxed mb-4'>情志不畅、焦虑抑郁、失眠多梦、经期不适、胸闷气短、头痛头昏、关节冷痛,偏爱柔婉花香,追求温婉雅致、身心安和的东方生活之人。</p><p class='leading-relaxed mb-2'>一炉幽庭玫瑰,香润芳华,疗愈身心。</p><p class='leading-relaxed'>静守幽庭,细品香韵,让每一次呼吸,都成为与自己的温柔相遇,归复身心的从容与安康。</p>`,
-    price: "",
-    imageUrl: "/products/youtingmeigui.jpg",
   },
   {
     id: "yxz_01",
