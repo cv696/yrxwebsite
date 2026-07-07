@@ -16,25 +16,25 @@ const fadeUp = {
 
 const fourFlowers = [
   {
-    theme: "绽放", name: "白玉兰香灸",
+    slug: "baiyulan", theme: "绽放", name: "白玉兰香灸",
     line: "把压在胸口的气，轻轻呼出去", accent: "#C8D6C0",
     svgPath: "M25 48 C25 30, 18 18, 25 4 C32 18, 25 30, 25 48 M25 28 C20 26, 17 22, 15 18 M25 28 C30 26, 33 22, 35 18 M25 36 C21 34, 18 30, 16 26 M25 36 C29 34, 32 30, 34 26",
     svgViewBox: "0 0 50 52",
   },
   {
-    theme: "悦纳", name: "幽庭玫瑰灸",
+    slug: "youmei", theme: "悦纳", name: "幽庭玫瑰灸",
     line: "听见那个对自己温柔的声音", accent: "#D4A0A0",
     svgPath: "M25 42 C22 28, 20 18, 25 6 C30 18, 28 28, 25 42 M25 28 C18 24, 14 16, 16 10 C18 4, 25 6, 25 14 C25 6, 32 4, 34 10 C36 16, 32 24, 25 28",
     svgViewBox: "0 0 50 50",
   },
   {
-    theme: "安和", name: "秋韵桂香灸",
+    slug: "qiuyun", theme: "安和", name: "秋韵桂香灸",
     line: "把散掉的心神，一点一点收回来", accent: "#D4AF37",
     svgPath: "M22 32 L22 14 C20 10, 22 6, 25 6 C28 6, 30 10, 28 14 L28 32 M25 6 L25 2 M18 10 L15 6 M32 10 L35 6 M16 22 L12 20 M34 22 L38 20 M20 40 L20 48 M30 40 L30 48 M25 38 L25 48",
     svgViewBox: "0 0 50 50",
   },
   {
-    theme: "静夜", name: "腊梅暗香灸",
+    slug: "lamei", theme: "静夜", name: "腊梅暗香灸",
     line: "想了之后还能放开，就是最好的休息", accent: "#A0B4C8",
     svgPath: "M25 44 C18 28, 20 16, 25 6 C30 16, 32 28, 25 44 M25 20 C20 14, 16 12, 18 8 C20 4, 25 8, 25 14 C25 8, 30 4, 32 8 C34 12, 30 14, 25 20 M14 30 L12 36 M36 30 L38 36 M25 14 L25 6",
     svgViewBox: "0 0 50 50",
@@ -119,7 +119,7 @@ export default function SalonPage() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.25 }} variants={fadeUp} custom={0.15}
             className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {fourFlowers.map((flower) => (
-              <article key={flower.theme}
+              <Link key={flower.theme} href={`/salon/${flower.slug}`}
                 className="group relative flex flex-col items-center gap-5 rounded-2xl border border-sandalwood/10 bg-paper/90 p-6 transition-all hover:-translate-y-1 hover:border-sandalwood/20 hover:shadow-[0_12px_40px_rgba(0,0,0,0.08)]">
                 <div className="absolute inset-x-0 top-0 h-0.5 rounded-t-2xl" style={{ backgroundColor: flower.accent }} />
                 <svg viewBox={flower.svgViewBox} className="mt-2 h-20 w-20 transition-transform duration-500 group-hover:scale-110"
@@ -129,7 +129,7 @@ export default function SalonPage() {
                 <h3 className="font-heading text-xl tracking-[0.4em]" style={{ color: flower.accent }}>{t(flower.theme)}</h3>
                 <p className="-mt-2 text-xs tracking-[0.18em] text-ink/50">{t(flower.name)}</p>
                 <p className="text-center text-sm leading-relaxed text-ink/70">{t(flower.line)}</p>
-              </article>
+              </Link>
             ))}
           </motion.div>
         </section>
