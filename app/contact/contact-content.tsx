@@ -17,7 +17,7 @@ export default function ContactContent() {
           </p>
         </div>
         <p className="max-w-2xl text-sm leading-relaxed text-ink/75 sm:text-base">
-          {t("缘融轩现阶段以小规模、预约制为主。若你希望了解定制药香珠、药香佛印，或洽询香灸体验与身心调理合作，可以通过以下方式与我们联系。")}
+          {t("缘融轩现阶段以小规模、预约制为主。若你希望了解定制药香珠、药香佛印，或洽询调元香体验与身心调理合作，可以通过以下方式与我们联系。")}
         </p>
       </section>
 
@@ -41,7 +41,7 @@ export default function ContactContent() {
             {t("联系方式 · Contact")}
           </h2>
           <p className="text-sm leading-relaxed text-ink/75 sm:text-base">
-            {t("缘融轩现阶段以小规模、预约制为主。若你希望了解定制药香珠、药香佛印，或洽询香灸体验与身心调理合作，可以通过以下方式与我们联系：")}
+            {t("缘融轩现阶段以小规模、预约制为主。若你希望了解定制药香珠、药香佛印，或洽询调元香体验与身心调理合作，可以通过以下方式与我们联系：")}
           </p>
           <ul className="mt-3 space-y-1.5 text-sm leading-relaxed text-ink/80">
             <li>{t("· 联系电话：086-18902407215")}</li>

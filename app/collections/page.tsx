@@ -138,7 +138,7 @@ function CollectionsContent() {
           <div className="space-y-8">
             <div className="text-center">
               <h1 className="font-heading text-lg tracking-[0.3em] text-accent sm:text-xl md:text-2xl">
-                {t("缘融轩 · 草本香灸系列")}
+                {t("缘融轩 · 草本调元香系列")}
               </h1>
               <p className="text-xs font-body italic tracking-[0.2em] text-foreground/70 sm:text-sm">
                 {t("—— 循古法之智，纳百草之灵 ——")}
@@ -153,12 +153,12 @@ function CollectionsContent() {
                 {t("｜大师匠心 · 独家传承｜")}
               </h2>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                {t("缘融轩香灸，由资深中医主任医师李国荣教授亲自操刀配方。李教授深耕传统医学数十载，将深厚的中医药理与古法炮制技艺完美融合。")}
+                {t("缘融轩调元香，由资深中医主任医师李国荣教授亲自操刀配方。李教授深耕传统医学数十载，将深厚的中医药理与古法炮制技艺完美融合。")}
               </p>
               <ul className="mt-4 space-y-3 text-sm text-foreground/75 sm:text-base">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
-                  <span><strong className="text-accent/80">{t("纯天然基料：")}</strong> {t("严选道地天然草本，拒绝任何化学添加剂、尼古丁与人工香精。")}</span>
+                  <span><strong className="text-accent/80">{t("纯天然基料：")}</strong> {t("严选道地天然草本，拒绝化学添加与人工香精，以纯粹草木之力温养身心。")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/80" />
@@ -176,7 +176,7 @@ function CollectionsContent() {
                 {t("｜七炉香 · 七种照护｜")}
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-foreground/75 sm:text-base">
-                {t("四时花香，三味理疗。从舒展绽放到安睡归位，七款香灸覆盖不同的身心状态。")}
+                {t("四时花香，三味理疗。从舒展绽放到安睡归位，七款调元香覆盖不同的身心状态。")}
               </p>
             </div>
           </div>
@@ -263,10 +263,10 @@ function CollectionsContent() {
                 {t("使用之道")}
               </h2>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                {t("香灸的使用过程，是一场安静的仪式。")}
+                {t("调元香的使用过程，是一场安静的仪式。")}
               </p>
               <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
-                {t("将香灸点燃或加热，让草本精油随着温润的烟气缓缓释放。您可以随身携带，在感到疲惫或不适时，借由这份来自大山的药香，完成一次深度的自我清理与重启。")}
+                {t("将调元香点燃或加热，让草本精油随着温润的烟气缓缓释放。您可以随身携带，在感到疲惫或不适时，借由这份来自大山的药香，完成一次深度的自我清理与重启。")}
               </p>
               <p className="mt-4 text-center text-sm font-body italic tracking-[0.15em] text-accent/80">
                 {t("缘融轩，给呼吸一份体面的温度。")}

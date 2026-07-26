@@ -16,7 +16,7 @@ const fadeUp = {
 
 const fourFlowers = [
   {
-    slug: "baiyulan", theme: "绽放", name: "白玉兰香灸",
+    slug: "baiyulan", theme: "绽放", name: "白玉兰调元香",
     line: "把压在胸口的气，轻轻呼出去", accent: "#C8D6C0",
     svgPath: "M25 48 C25 30, 18 18, 25 4 C32 18, 25 30, 25 48 M25 28 C20 26, 17 22, 15 18 M25 28 C30 26, 33 22, 35 18 M25 36 C21 34, 18 30, 16 26 M25 36 C29 34, 32 30, 34 26",
     svgViewBox: "0 0 50 52",
@@ -28,13 +28,13 @@ const fourFlowers = [
     svgViewBox: "0 0 50 50",
   },
   {
-    slug: "qiuyun", theme: "安和", name: "秋韵桂香灸",
+    slug: "qiuyun", theme: "安和", name: "秋韵桂调元香",
     line: "把散掉的心神，一点一点收回来", accent: "#D4AF37",
     svgPath: "M22 32 L22 14 C20 10, 22 6, 25 6 C28 6, 30 10, 28 14 L28 32 M25 6 L25 2 M18 10 L15 6 M32 10 L35 6 M16 22 L12 20 M34 22 L38 20 M20 40 L20 48 M30 40 L30 48 M25 38 L25 48",
     svgViewBox: "0 0 50 50",
   },
   {
-    slug: "lamei", theme: "静夜", name: "腊梅暗香灸",
+    slug: "lamei", theme: "静夜", name: "腊梅暗调元香",
     line: "想了之后还能放开，就是最好的休息", accent: "#A0B4C8",
     svgPath: "M25 44 C18 28, 20 16, 25 6 C30 16, 32 28, 25 44 M25 20 C20 14, 16 12, 18 8 C20 4, 25 8, 25 14 C25 8, 30 4, 32 8 C34 12, 30 14, 25 20 M14 30 L12 36 M36 30 L38 36 M25 14 L25 6",
     svgViewBox: "0 0 50 50",
@@ -103,8 +103,8 @@ export default function SalonPage() {
             {t("以香为引 · 以息为门")}
           </h2>
           <div className="mx-auto max-w-xl space-y-4 text-center text-sm leading-loose text-ink/70 sm:text-base">
-            <p>{t("融香安心法，是缘融轩基于数十年香药研究，提炼出的一套闻香禅定体验。以四款古法花香香灸为引，透过简单的呼吸方式，让天然香材的气息带你沉入内在的安静。")}</p>
-            <p>{t("每一款香灸，由李教授以独创的香疗配方，运用多种名贵药材，遵循古法配伍入灸。你所闻到的，不是普通的花香，而是一味经过时间与匠心沉淀的安宁。")}</p>
+            <p>{t("融香安心法，是缘融轩基于数十年香药研究，提炼出的一套闻香禅定体验。以四款古法花香调元香为引，透过简单的呼吸方式，让天然香材的气息带你沉入内在的安静。")}</p>
+            <p>{t("每一款调元香，由李教授以独创的香疗配方，运用多种名贵药材，遵循古法配伍入灸。你所闻到的，不是普通的花香，而是一味经过时间与匠心沉淀的安宁。")}</p>
             <p className="pt-2 text-ink/80">{t("你只需要来，坐下来，闻。")}</p>
           </div>
         </motion.section>

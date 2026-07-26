@@ -226,10 +226,10 @@ export default function ArticleContent() {
           </div>
 
           <h2 className="font-heading text-base tracking-[0.24em] text-accent pt-4">
-            {t("六、龙涎香在缘融轩香灸中的应用")}
+            {t("六、龙涎香在缘融轩调元香中的应用")}
           </h2>
           <p>
-            {t("龙涎香用在缘融轩香灸与香疗里，主要扮演的是")}
+            {t("龙涎香用在缘融轩调元香与香疗里，主要扮演的是")}
             <strong>{t('"定香剂"')}</strong>
             {t("和")}
             <strong>{t('"氛围放大器"')}</strong>
@@ -246,7 +246,7 @@ export default function ArticleContent() {
             </p>
           </div>
           <p>
-            {t("这也是缘融轩香灸能够带来独特体验的关键所在——每一缕香气，都在龙涎香的调和下，得以最大程度地发挥其本质魅力。")}
+            {t("这也是缘融轩调元香能够带来独特体验的关键所在——每一缕香气，都在龙涎香的调和下，得以最大程度地发挥其本质魅力。")}
           </p>
 
         </div>

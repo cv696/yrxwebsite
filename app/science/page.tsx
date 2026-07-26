@@ -25,8 +25,8 @@ export default function SciencePage() {
     {
       id: "chaos-and-order",
       title: t("青烟里的乱与序"),
-      subtitle: t("疫情香灸狂潮下，一位香疗学者的孤行"),
-      description: t("从市场乱象到功效型香方的科学化之路，透视疫情期间香灸狂潮背后的灰色地带，与李国荣医生五十年孤行实践的对比。"),
+      subtitle: t("疫情调元香狂潮下，一位香疗学者的孤行"),
+      description: t("从市场乱象到功效型香方的科学化之路，透视疫情期间调元香狂潮背后的灰色地带，与李国荣医生五十年孤行实践的对比。"),
       href: "/science/chaos-and-order",
       icon: t("乱与序"),
     },
@@ -64,9 +64,9 @@ export default function SciencePage() {
     },
     {
       id: "ancient-wisdom",
-      title: t("香灸 · 传承千年的中医智慧"),
+      title: t("调元香 · 传承千年的中医智慧"),
       subtitle: t("纯中药吸入疗法的安全之选"),
-      description: t("从《山海经》到《本草纲目》，探寻古籍中的香灸印记，结合现代科学研究，验证纯中药香灸的安全与疗效。"),
+      description: t("从《山海经》到《本草纲目》，探寻古籍中的调元香印记，结合现代科学研究，验证纯中药调元香的安全与疗效。"),
       href: "/science/ancient-wisdom",
       icon: t("古籍传承"),
     },
