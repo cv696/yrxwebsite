@@ -469,6 +469,30 @@ export const products = [
     collector: "待结缘",
     imageUrl: "/products/fanjinninyun.jpg",
   },
+  {
+    id: "yxz_22",
+    name: "曜香玄玑手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、降真香、甘松、青木香、朱砂、5%龙涎香制野生古稀柏科沉香(三千年以上)、合香粉、牛角、牛黄、麝香、天珠、沉香油、甘露丸、砗磲、珊瑚、藏柏、藏菖蒲。",
+    description:
+      "古法合香珠为主珠，配藏式图腾天珠与六字真言筒珠，银隔件缀仿松石红宝。融香道雅趣与藏地禅韵于一体，腕间一握，香随身转，既可佩戴亦宜捻珠静心。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/yaoxiangxuanji.jpg",
+  },
+  {
+    id: "yxz_23",
+    name: "云枢双环手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、降真香、甘松、青木香、朱砂、5%龙涎香制野生古稀柏科沉香(三千年以上)、合香粉、牛角、牛黄、麝香、天珠、沉香油、甘露丸、砗磲、珊瑚、藏柏、藏菖蒲。",
+    description:
+      "古法合香珠双圈款，配金银错色云纹筒珠，錾刻卷云纹样，云纹纳福。双环贴合腕间，以简驭繁，尽显香道本真。既可佩戴，亦可捻珠修心。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/xunqushuanghuan.jpg",
+  },
 ];
 
 export const productCategories = [
