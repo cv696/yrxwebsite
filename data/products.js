@@ -493,6 +493,30 @@ export const products = [
     collector: "待结缘",
     imageUrl: "/products/xunqushuanghuan.jpg",
   },
+  {
+    id: "yxz_24",
+    name: "玄曜慧眸手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "玄曜慧眸，取天眼主珠天成环纹，如慧眸观照世间。配墨玉隔珠与镂刻银饰，层次古雅。腕间萦绕幽淡清芬，宜静坐品茗、禅修闲居。摩挲之间安放浮躁心绪，既是随身雅饰，亦是静心之物。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/xuanyaohuimoy.jpg",
+  },
+  {
+    id: "yxz_25",
+    name: "玄香映朱琉手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "此串名唤玄香映朱琉，颗颗古法香珠朴拙浑厚，凝蓄天然香韵。串间嵌两枚清代老雪巴珠，艳红醇厚，是整串的点睛古物，历经岁月沉淀，温润古意流转其间。搭配苍润松石隔片与复古藏纹银饰，铜垫错落点缀，配色沉雅协调。整体融香道气韵与藏式古珠之美，古朴银件雕琢繁复，与老雪巴珠交相辉映。握于腕间，既有香珠内敛幽芳，又得老珠传世风华，沉静雅致，兼具把玩与观赏之趣。",
+    price: "",
+    collector: "待结缘",
+    imageUrl: "/products/xunxiangzhuliu.jpg",
+  },
 ];
 
 export const productCategories = [
