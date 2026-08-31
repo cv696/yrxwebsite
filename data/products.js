@@ -157,11 +157,11 @@ export const products = [
 
   {
     id: "incense-moxibustion-04",
-    name: "腊梅暗调元香",
+    name: "腊梅暗香调元香",
     category: "incense-moxibustion",
     ingredients: "腊梅花、玫瑰花、甘松、沉香、甘草、玄参",
     description:
-      "<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>不寐之根在「阳不入阴」——阴分不足则海浅难纳，气机不通则路塞难归。腊梅暗调元香双管齐下：壮水以深其海，散结以通其路。不动不伐，只修桥补路，等阳气自己落进去。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>腊梅花为君，</span>辛凉清透，散胸中烦热——百花皆寂而此花独放，其性自静，以静制躁。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玄参、玫瑰花为臣，</span>玄参甘苦咸寒入肾，壮水滋阴——海够深，太阳自然沉得下去；玫瑰花甘苦温，柔肝安魂——肝藏血、血舍魂，肝柔则魂归。一补阴根，一安肝魂，标本同步。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘松、沉香为佐，</span>甘松辛甘温，开郁醒脾——胃不和则卧不安，中焦一通，心肾得交；沉香辛苦微温，纳气归肾——将散开浊气与浮越心神一并收纳入丹田。一开一纳，完成气机「后半程」的下沉与通达。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘草为使，</span>培土伏火——如细土闷火，令虚火静谧归藏，蓄养明日之生机。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 入睡困难（躺下逾半时不寐）、脑中思绪纷飞停不下来</p><p class='leading-relaxed mb-2'>· 心烦燥热、手足心热、阴虚阳浮</p><p class='leading-relaxed mb-2'>· 睡前反复回思日间之事、压抑愤怒、肝郁化火</p><p class='leading-relaxed mb-2'>· 脘腹胀满、晚餐后不适延续至睡前、胃不和而卧不安</p><p class='leading-relaxed mb-2'>· 口干不欲饮、面时潮红、易醒难复眠</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>睡前半小时燃用。平卧，腹式呼吸引气下沉。不求速睡，但令心神有归。香尽之时，睡意往往不请自来。</p>",
+      "<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>不寐之根在「阳不入阴」——阴分不足则海浅难纳，气机不通则路塞难归。腊梅暗香调元香双管齐下：壮水以深其海，散结以通其路。不动不伐，只修桥补路，等阳气自己落进去。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>腊梅花为君，</span>辛凉清透，散胸中烦热——百花皆寂而此花独放，其性自静，以静制躁。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玄参、玫瑰花为臣，</span>玄参甘苦咸寒入肾，壮水滋阴——海够深，太阳自然沉得下去；玫瑰花甘苦温，柔肝安魂——肝藏血、血舍魂，肝柔则魂归。一补阴根，一安肝魂，标本同步。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘松、沉香为佐，</span>甘松辛甘温，开郁醒脾——胃不和则卧不安，中焦一通，心肾得交；沉香辛苦微温，纳气归肾——将散开浊气与浮越心神一并收纳入丹田。一开一纳，完成气机「后半程」的下沉与通达。</p><p class='leading-relaxed mb-3'><span class='text-accent'>甘草为使，</span>培土伏火——如细土闷火，令虚火静谧归藏，蓄养明日之生机。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 入睡困难（躺下逾半时不寐）、脑中思绪纷飞停不下来</p><p class='leading-relaxed mb-2'>· 心烦燥热、手足心热、阴虚阳浮</p><p class='leading-relaxed mb-2'>· 睡前反复回思日间之事、压抑愤怒、肝郁化火</p><p class='leading-relaxed mb-2'>· 脘腹胀满、晚餐后不适延续至睡前、胃不和而卧不安</p><p class='leading-relaxed mb-2'>· 口干不欲饮、面时潮红、易醒难复眠</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>睡前半小时燃用。平卧，腹式呼吸引气下沉。不求速睡，但令心神有归。香尽之时，睡意往往不请自来。</p>",
     price: "¥4000",
     imageUrl: "/products/an_xiang_yun.jpg",
   },
@@ -177,27 +177,27 @@ export const products = [
   },
   {
     id: "incense-moxibustion-06",
-    name: "秋韵桂调元香",
+    name: "秋韵桂香调元香",
     category: "incense-moxibustion",
     ingredients: "金桂花、玫瑰花、薰衣草、檀香、沉香、玉兰花",
     description:
-      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>秋气收敛，收之太过即成郁。悲秋非矫情——气机内收过度，胸中窒塞，悲从中来。更兼秋凉伤中，脾寒不运则清气不升、浊气不降，整个人「既收不拢、又散不开」。桂调元香以「暖脾醒中，升清降浊」为法，是秋日气机失调的对证之方。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>金桂花为君，</span>辛温芳香，暖脾醒胃——如火柴划入冷炉灶，非添柴，是引燃内在火种。土生金，中阳一振则肺气自充，悲忧自解。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为臣，</span>柔肝解郁——肝木克脾土，中焦一暖则寒气散，肝郁失其所附而自消。桂与玫，一暖一松，解肝脾之「死结」。</p><p class='leading-relaxed mb-3'><span class='text-accent'>薰衣草、檀香、沉香为佐，</span>薰衣草辛凉入心，清心除烦，反佐诸温药使全方温而不燥；檀香辛温升清，接桂花之清气入心肺；沉香辛苦降浊，引浊气沉归丹田。三味合力，寒热制衡、升降相因，三焦气机循环复始。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玉兰花为使，</span>辛温引经，携诸香之气贯通清阳之府。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 秋季脘腹冷胀、食欲减退、食入即饱</p><p class='leading-relaxed mb-2'>· 情绪低落、善悲欲泣、胸闷气短（悲忧伤肺）</p><p class='leading-relaxed mb-2'>· 头昏不清、上热下寒（口干而足凉，升降失常）</p><p class='leading-relaxed mb-2'>· 思虑过度、心绪纷乱、难以专注</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>午后或黄昏燃用，秋雨萧瑟时尤宜。腹式呼吸，引暖意由胃腑升起。清气一升，头目自爽。上午燃用暖脾升阳，晚间以玫瑰柔肝安神，可依时辰轮用。</p>`,
+      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>秋气收敛，收之太过即成郁。悲秋非矫情——气机内收过度，胸中窒塞，悲从中来。更兼秋凉伤中，脾寒不运则清气不升、浊气不降，整个人「既收不拢、又散不开」。秋韵桂香调元香以「暖脾醒中，升清降浊」为法，是秋日气机失调的对证之方。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>金桂花为君，</span>辛温芳香，暖脾醒胃——如火柴划入冷炉灶，非添柴，是引燃内在火种。土生金，中阳一振则肺气自充，悲忧自解。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为臣，</span>柔肝解郁——肝木克脾土，中焦一暖则寒气散，肝郁失其所附而自消。桂与玫，一暖一松，解肝脾之「死结」。</p><p class='leading-relaxed mb-3'><span class='text-accent'>薰衣草、檀香、沉香为佐，</span>薰衣草辛凉入心，清心除烦，反佐诸温药使全方温而不燥；檀香辛温升清，接桂花之清气入心肺；沉香辛苦降浊，引浊气沉归丹田。三味合力，寒热制衡、升降相因，三焦气机循环复始。</p><p class='leading-relaxed mb-3'><span class='text-accent'>玉兰花为使，</span>辛温引经，携诸香之气贯通清阳之府。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 秋季脘腹冷胀、食欲减退、食入即饱</p><p class='leading-relaxed mb-2'>· 情绪低落、善悲欲泣、胸闷气短（悲忧伤肺）</p><p class='leading-relaxed mb-2'>· 头昏不清、上热下寒（口干而足凉，升降失常）</p><p class='leading-relaxed mb-2'>· 思虑过度、心绪纷乱、难以专注</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>午后或黄昏燃用，秋雨萧瑟时尤宜。腹式呼吸，引暖意由胃腑升起。清气一升，头目自爽。上午燃用暖脾升阳，晚间以玫瑰柔肝安神，可依时辰轮用。</p>`,
     price: "",
     imageUrl: "/products/qiuyunguixiang.jpg",
   },
   {
     id: "incense-moxibustion-07",
-    name: "幽庭玫瑰灸",
+    name: "幽庭玫瑰调元香",
     category: "incense-moxibustion",
     ingredients: "玫瑰花、白玉兰、檀香、沉香、鸢尾根、零陵香",
     description:
-      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>肝为刚脏，宜柔不宜伐。柴胡之属如斧劈，玫瑰之流如手抚。长期压抑困顿之人，其肝非「堵」而是「僵」——刚药相激，反成拔河。幽庭玫瑰灸以「柔肝解郁、三焦贯通」为法，走疏→升→降→化四步气化路径，刚柔相济，面面俱到。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为君，</span>甘温柔润，柔肝醒胃、行气和血——肝苦急，急食甘以缓之。非疏非泄，以甘缓抚平刚脏之性。</p><p class='leading-relaxed mb-3'><span class='text-accent'>白玉兰为臣，</span>辛温走窜，宣通胸中陈腐之气——玫瑰向内柔肝，玉兰向外宣通，一敛一宣，开阖之配。</p><p class='leading-relaxed mb-3'><span class='text-accent'>檀香、沉香、鸢尾根为佐，</span>檀香辛温升清入心宁神，沉香辛苦降浊纳气归肾，一升一降构建气机纵轴；鸢尾根苦辛平，活血通络——气滞日久必及血分，防「久行气则伤血」之弊。三味合力，三焦贯通，气血同治。</p><p class='leading-relaxed mb-3'><span class='text-accent'>零陵香为使，</span>芳香辟秽、透达引经——借其透发力，引诸香气由肺入脉、由脉入络，抵达细微气络。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 长期压抑、易怒、胸胁胀闷、善太息</p><p class='leading-relaxed mb-2'>· 思绪纷连、气浮于上、入睡困难（因焦虑而非阴虚）</p><p class='leading-relaxed mb-2'>· 面色暗沉、胸闷偶有刺痛（气滞及血之兆）</p><p class='leading-relaxed mb-2'>· 头重昏蒙、清浊不分、浊气不降</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>情志不舒或胸胁胀闷时燃用，深长呼吸5–10分钟，感受胸中「松开感」。调元香经鼻入肺，绕开脾胃运化，直接作用气分。可日常燃用，随需而调。</p>`,
+      `<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>肝为刚脏，宜柔不宜伐。柴胡之属如斧劈，玫瑰之流如手抚。长期压抑困顿之人，其肝非「堵」而是「僵」——刚药相激，反成拔河。幽庭玫瑰调元香以「柔肝解郁、三焦贯通」为法，走疏→升→降→化四步气化路径，刚柔相济，面面俱到。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>玫瑰花为君，</span>甘温柔润，柔肝醒胃、行气和血——肝苦急，急食甘以缓之。非疏非泄，以甘缓抚平刚脏之性。</p><p class='leading-relaxed mb-3'><span class='text-accent'>白玉兰为臣，</span>辛温走窜，宣通胸中陈腐之气——玫瑰向内柔肝，玉兰向外宣通，一敛一宣，开阖之配。</p><p class='leading-relaxed mb-3'><span class='text-accent'>檀香、沉香、鸢尾根为佐，</span>檀香辛温升清入心宁神，沉香辛苦降浊纳气归肾，一升一降构建气机纵轴；鸢尾根苦辛平，活血通络——气滞日久必及血分，防「久行气则伤血」之弊。三味合力，三焦贯通，气血同治。</p><p class='leading-relaxed mb-3'><span class='text-accent'>零陵香为使，</span>芳香辟秽、透达引经——借其透发力，引诸香气由肺入脉、由脉入络，抵达细微气络。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 长期压抑、易怒、胸胁胀闷、善太息</p><p class='leading-relaxed mb-2'>· 思绪纷连、气浮于上、入睡困难（因焦虑而非阴虚）</p><p class='leading-relaxed mb-2'>· 面色暗沉、胸闷偶有刺痛（气滞及血之兆）</p><p class='leading-relaxed mb-2'>· 头重昏蒙、清浊不分、浊气不降</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>情志不舒或胸胁胀闷时燃用，深长呼吸5–10分钟，感受胸中「松开感」。调元香经鼻入肺，绕开脾胃运化，直接作用气分。可日常燃用，随需而调。</p>`,
     price: "",
     imageUrl: "/products/youtingmeigui.jpg",
   },
   {
     id: "incense-moxibustion-01",
-    name: "凌霄觉灸",
+    name: "凌霄觉调元香",
     category: "incense-moxibustion",
     ingredients: "麝香,丹参,西洋参,龙脑以及其他天然草本植物秘方",
     description:
@@ -207,7 +207,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-02",
-    name: "藏真固灸",
+    name: "藏真固调元香",
     category: "incense-moxibustion",
     ingredients: "鹿茸,海马,红参,以及其他天然草本植物秘方",
     description:
@@ -217,7 +217,7 @@ export const products = [
   },
   {
     id: "incense-moxibustion-03",
-    name: "清风息灸",
+    name: "清风息调元香",
     category: "incense-moxibustion",
     ingredients: "辛夷花,鹅不食草,以及其他天然草本植物秘方",
     description:
@@ -538,6 +538,6 @@ export const productCategories = [
   {
     id: "incense-moxibustion",
     label: "调元香",
-    description: "为呼吸与睡眠设计的新型调元香产品,将香与灸合一。",
+    description: "为呼吸与睡眠设计的新型调元香产品,以天然香材、古法配伍。",
   },
 ];
