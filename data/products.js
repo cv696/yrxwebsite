@@ -384,7 +384,7 @@ export const products = [
     ingredients: "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
     description:
       "玉衡渡禅心手串，以温润药香珠配黑耀石，搭绿纹天珠与黄水晶，银饰缀六字真言。色调沉稳，形制圆融，香韵清润，禅意暗藏，于腕间流转古韵与静心之美。",
-    price: "¥680",
+    price: "¥780",
     collector: "柬埔寨邓先生",
     imageUrl: "/products/yuduchanxin.jpg",
   },
