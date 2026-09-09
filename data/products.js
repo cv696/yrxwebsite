@@ -517,6 +517,42 @@ export const products = [
     collector: "待结缘",
     imageUrl: "/products/xunxiangzhuliu.jpg",
   },
+  {
+    id: "yxz_26",
+    name: "静澜香持五十四数珠",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「静澜香持五十四数珠」，取药香珠之幽褐古朴，温润圆实，凝蓄清雅香韵。主珠嵌松石，藏银隔珠与银流苏点缀其间，藏风古意流转。静澜含心湖澄明、波澜不起之意，香持喻以香修持、持念守静之愿。五十四之数，承大乘修证之理，断五十四烦恼、渐证菩提。药香萦腕，静气入怀，既是修心助道之器，亦是兼具东方禅韵与吉祥寓意的随身雅物。",
+    price: "待结缘",
+    collector: "中国台湾张先生",
+    imageUrl: "/products/jinlanxiangchi.jpg",
+  },
+  {
+    id: "yxz_27",
+    name: "静环凝曜手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「静环凝曜手串」，取药香珠之浅褐素朴，温润内敛，凝蓄草木幽香。主珠嵌青玉，藏银隔珠与时曜虎眼石相衬，静环含安然守心之意，凝曜喻祥光内聚、温润生辉。绕于腕间，雅致天成，随体温慢散清芬，供捻珠静心、温养气息，兼具禅韵与文玩之趣，是日常相伴的静心雅物。",
+    price: "待结缘",
+    collector: "中国台湾张先生",
+    imageUrl: "/products/jinhuanninyao.jpg",
+  },
+  {
+    id: "yxz_28",
+    name: "清馥圆玑手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「清馥圆玑手串」，取药香珠之浅褐温润，凝蓄草木幽香。主珠奶白牙黄圆珠，莹润生辉，藏银隔珠与朱红藕珠相衬，清馥含净香盈袖之意，圆玑喻圆融守心、温润如玉。绕于腕间，不事繁饰，雅集成趣，随体温慢散清芬，供捻珠静心、读书佐茗，兼具禅韵与文房之味，是案头相伴的静心雅物。",
+    price: "待结缘",
+    collector: "中国台湾张先生",
+    imageUrl: "/products/qinfuyuanji.jpg",
+  },
 ];
 
 export const productCategories = [
