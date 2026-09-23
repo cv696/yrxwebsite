@@ -146,6 +146,18 @@ function CollectionsContent() {
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-foreground/75 sm:text-base md:text-base mx-auto">
                 {t("在繁忙的现代生活节奏中，我们往往遗忘了呼吸的质感。「缘融轩」秉持对自然的敬畏，将传统草本智慧转化为日常可感的香气疗愈。这不仅是一缕烟云，更是一次身心的归位。")}
               </p>
+              <div className="mx-auto mt-6 w-full max-w-[360px] overflow-hidden rounded-2xl border border-accent/15 bg-primary/90 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.45)] sm:mt-8">
+                <video
+                  className="block w-full"
+                  src="/media/tiaoyuanxian.mp4"
+                  poster="/media/tiaoyuanxian-poster.jpg"
+                  controls
+                  playsInline
+                  preload="metadata"
+                >
+                  {t("您的浏览器暂不支持视频播放。")}
+                </video>
+              </div>
             </div>
             
             <div className="space-y-4 rounded-2xl border border-accent/15 bg-primary/90 p-6 md:p-8">
