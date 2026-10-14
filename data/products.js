@@ -553,6 +553,42 @@ export const products = [
     collector: "中国台湾张先生",
     imageUrl: "/products/qinfuyuanji.jpg",
   },
+  {
+    id: "yxz_29",
+    name: "红梵观心手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「红梵观心手串」，取药香珠之沉褐古朴，珠身细砂温润，凝蓄草木幽香。串间以两颗朱红雕珠为眼，珠面回纹盘绕，红如丹砂，两侧鎏金隔片相衔，赤褐相映，古雅沉静。红梵含赤心向道之意，观心喻以香观照自心。绕于腕间，朱红入目，药香入怀，宜静坐捻珠、日常相伴，既是修心助道之器，亦是兼具东方禅韵与吉祥寓意的随身雅物。",
+    price: "待结缘",
+    collector: "",
+    imageUrl: "/products/hongfanguanxin.jpg",
+  },
+  {
+    id: "yxz_30",
+    name: "玄玑悟香手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「玄玑悟香手串」，古法药香珠棕褐朴拙，香气内敛绵长。正中一颗天眼珠深邃如眸，两侧缀藏银嵌宝隔珠，红宝松石错落；一端更衬蓝金掐丝珐琅宝珠，藏地梵韵与宫苑雅色交织，层次考究。玄玑含玄机在握、慧眼观心之意，悟香喻以香悟道、以珠静心。腕间藏韵流转，既可佩戴，亦宜捻珠静坐。",
+    price: "待结缘",
+    collector: "",
+    imageUrl: "/products/xuanjiwuxiang.jpg",
+  },
+  {
+    id: "yxz_31",
+    name: "珠玑蕴香手串",
+    category: "medicine-incense-beads",
+    ingredients:
+      "藏红花、白檀、旂檀、绿奇楠沉香、朱砂、牛黄、沉香油、塔尔寺甘露丸等珍贵香药材",
+    description:
+      "「珠玑蕴香手串」，药香珠色浅温润，素朴无华，暗蓄草木清芬。串中一颗朱红雕珠为核，珠面回纹婉转，两侧镂空银饰相扣，红银相衬，简净而有古意。珠玑含珠玉在腕、光华内蕴之意，蕴香喻药香沉蓄、日久弥芳。不事繁饰，随体温慢吐清芬，宜读书佐茗、捻珠静心。",
+    price: "待结缘",
+    collector: "",
+    imageUrl: "/products/zhujiyunxiang.jpg",
+  },
 ];
 
 export const productCategories = [
