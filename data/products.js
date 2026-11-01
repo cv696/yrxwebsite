@@ -233,7 +233,7 @@ export const products = [
       "三千年沉香、檀香、西洋参、零陵香、红参，佐以安神类药食同源香材与树脂、果实类珍稀香药（全方二十余味）",
     description:
       "<p class='font-heading text-accent tracking-widest mb-3 text-xl'>【立方之旨】</p><p class='leading-relaxed mb-4'>《素问·灵兰秘典论》说「心者，君主之官也，神明出焉」。思虑日繁、昼夜颠倒之人，多是神不守舍——不是不想静，是收不回来。宁神定志调元香以「宁神定志」为唯一立意：先以行气之品通其路，再以安神之品安其神。不压不镇，只把路铺平，神自然有处可归。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【配伍精要】</p><p class='leading-relaxed mb-3'><span class='text-accent'>三千年沉香、檀香、西洋参、零陵香、红参等名贵香材为君，</span>其气清正上扬，先开上焦之郁，令气机有路可走——气不通则神不安，故以行气为安神之先着。</p><p class='leading-relaxed mb-3'><span class='text-accent'>安神类药食同源香材为臣，</span>甘润温厚，养心而宁神；多味相合，共成一「养神」之阵，使气有所依、神有所归。</p><p class='leading-relaxed mb-3'><span class='text-accent'>树脂类与果实类珍稀香药为佐使，</span>先经土炒去油、再以蜜酒炙制，去其燥烈、存其醇厚，纳气归根，令升者有升路、降者有降路。</p><p class='leading-relaxed mb-3'>全方二十余味，君臣佐使各安其位。配方比例属独门配伍，不对外公开。</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【适用证候】</p><p class='leading-relaxed mb-2'>· 心神散乱难以收摄，静坐未久便思绪纷起</p><p class='leading-relaxed mb-2'>· 心中悬悬不落、易惊易醒、夜卧不安</p><p class='leading-relaxed mb-2'>· 白日神思外驰、事过即忘、难以专注</p><p class='leading-relaxed mb-2'>· 气短乏力，说话稍久便觉中气不继</p><p class='leading-relaxed mb-2'>· 长期思虑过度、劳心耗神之后的调养</p><p class='font-heading text-accent tracking-widest mb-3 text-xl'>【使用提示】</p><p class='leading-relaxed'>香气三段递进：初闻清透上扬，中段甘润温厚，尾韵醇厚绵长。静坐前、夜卧前，或需要专注之前燃用。坐定，以鼻深吸三次，令香气直达胸中；不必刻意求静，随香气一遍一遍走过三段，神自会慢慢回来。宜每日一炉，亦可依自身节奏间日使用。</p>",
-    price: "",
+    price: "¥4000",
     imageUrl: "/products/ninshendinzhi.jpg",
   },
   {
