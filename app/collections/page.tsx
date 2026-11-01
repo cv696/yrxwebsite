@@ -185,12 +185,48 @@ function CollectionsContent() {
             
             <div>
               <h2 className="font-heading text-lg tracking-[0.24em] text-accent md:text-xl">
-                {t("｜七炉香 · 七种照护｜")}
+                {t("｜八炉香 · 八种照护｜")}
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-foreground/75 sm:text-base">
-                {t("四时花香，三味理疗。从舒展绽放到安睡归位，七款调元香覆盖不同的身心状态。")}
+                {t("四时花香，四味理疗。从舒展绽放到安睡归位，八款调元香覆盖不同的身心状态。")}
               </p>
             </div>
+
+            {/* 不只融香安心法 · 使用场景延伸 */}
+            <section className="relative overflow-hidden py-10 sm:py-14">
+              <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_65%_75%_at_50%_50%,rgba(212,175,55,0.09),transparent_72%)]" />
+              <div className="relative mx-auto max-w-2xl px-2 text-center">
+                <div className="mx-auto h-px w-16 bg-accent/40" />
+                <p className="mt-7 text-[10px] font-body uppercase tracking-[0.34em] text-foreground/45 sm:text-[11px]">
+                  BEYOND THE RITUAL
+                </p>
+                <h2 className="mt-4 font-heading text-lg tracking-[0.26em] text-accent sm:text-xl md:text-2xl">
+                  {t("不止融香安心法")}
+                </h2>
+                <p className="mt-3 font-heading text-xs tracking-[0.2em] text-foreground/80 sm:text-sm">
+                  {t("调元香，适配所有调息静养之时")}
+                </p>
+
+                <div className="mt-8 space-y-4 text-left text-sm leading-[2] text-foreground/75 sm:text-base">
+                  <p>
+                    {t("调元香以宁神定志香为基底，复方香药透过呼吸给药，不只是融香安心法的专属媒介。")}
+                  </p>
+                  <p>
+                    {t("八段锦、太极拳、静坐打坐、日常观息，但凡以调息养气的时刻，一炉调元香相伴，香气随气息入体，舒缓安神、调养元气，让每一次吐纳，都更安定从容。")}
+                  </p>
+                </div>
+
+                <Link
+                  href="/salon"
+                  className="mt-8 inline-flex items-center gap-2 border-b border-accent/30 pb-1 text-[11px] font-body tracking-[0.24em] text-accent/85 transition-colors hover:border-accent hover:text-accent"
+                >
+                  {t("了解融香安心法")}
+                  <span aria-hidden="true">→</span>
+                </Link>
+
+                <div className="mx-auto mt-10 h-px w-16 bg-accent/40" />
+              </div>
+            </section>
           </div>
         )}
 
